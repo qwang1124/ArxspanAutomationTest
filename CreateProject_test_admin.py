@@ -9,7 +9,7 @@ import unittest,time,re,os
 import HtmlTestRunner
 
 
-class TEST_CREATPROJECT_ADMIN(unittest.TestCase):
+class TEST_CREATEPROJECT_ADMIN(unittest.TestCase):
     # def setUp(self):
     #     self.driver = webdriver.Chrome("C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver\\chromedriver.exe")
     #     self.driver.implicitly_wait(3)
@@ -61,7 +61,7 @@ listaa = 'C:\\Users\\Ms. Wang\Downloads\\arxspan'
 
 def createsuite1():
     testunit=unittest.TestSuite()
-    discover = unittest.defaultTestLoader.discover(listaa,pattern='CreatNotebook_test_admin.py',top_level_dir=None)
+    discover = unittest.defaultTestLoader.discover(listaa,pattern='CreateNotebook_test_admin.py',top_level_dir=None)
     for test_suite in discover:
         for test_case in test_suite:
             testunit.addTests(test_case)
