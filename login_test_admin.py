@@ -22,14 +22,14 @@ import HtmlTestRunner
 
 class TEST2(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome("C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver\\chromedriver.exe")
+        self.driver = webdriver.Chrome("C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\Driver\\chromedriver.exe")
         self.driver.implicitly_wait(3)
         self.base_url = "https://model.arxspan.com/login.asp"
         self.verificationErrors = []
         self.accept_next_alert = True
 
     def test2(self):
-        driver = webdriver.Chrome("C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver\\chromedriver.exe")
+        driver = webdriver.Chrome("C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\Driver\\chromedriver.exe")
         driver.get(self.base_url)
         driver.maximize_window()
         driver.find_element_by_id('login-email').send_keys('admin@demo.com')
@@ -58,7 +58,7 @@ class TEST2(unittest.TestCase):
         self.assertTrue(valid)
 
     def test3(self):
-        driver = webdriver.Chrome("C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver\\chromedriver.exe")
+        driver = webdriver.Chrome("C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\Driver\\chromedriver.exe")
         driver.get(self.base_url)
         driver.maximize_window()
         driver.find_element_by_id('login-email').send_keys('admin@demo.com')
@@ -87,7 +87,7 @@ class TEST2(unittest.TestCase):
         self.assertTrue(valid)
 
     def test4(self):
-        driver = webdriver.Chrome("C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver\\chromedriver.exe")
+        driver = webdriver.Chrome("C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\Driver\\chromedriver.exe")
         driver.get(self.base_url)
         driver.maximize_window()
         driver.find_element_by_id('login-email').send_keys('admin@demo.com')
@@ -116,7 +116,7 @@ class TEST2(unittest.TestCase):
         self.assertTrue(valid)
 
     def test5(self):
-        driver = webdriver.Chrome("C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver\\chromedriver.exe")
+        driver = webdriver.Chrome("C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\Driver\\chromedriver.exe")
         driver.get(self.base_url)
         driver.maximize_window()
         driver.find_element_by_id('login-email').send_keys('afmin@demo.com')
@@ -145,7 +145,7 @@ class TEST2(unittest.TestCase):
         self.assertTrue(valid)
 
     def test6(self):
-        driver = webdriver.Chrome("C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver\\chromedriver.exe")
+        driver = webdriver.Chrome("C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\Driver\\chromedriver.exe")
         driver.get(self.base_url)
         driver.maximize_window()
         driver.find_element_by_id('login-email').send_keys('admin@demo.com')
@@ -174,12 +174,12 @@ class TEST2(unittest.TestCase):
         self.assertTrue(valid)
 
 
-listaa = 'C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst'
+listaa = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\ArxspanAutomationTest\\login_test'
 
 
 def createsuite1():
     testunit=unittest.TestSuite()
-    discover = unittest.defaultTestLoader.discover(listaa,pattern='login_test_Joe.py',top_level_dir=None)
+    discover = unittest.defaultTestLoader.discover(listaa, pattern='login_test_Admin.py', top_level_dir=None)
     for test_suite in discover:
         for test_case in test_suite:
             testunit.addTests(test_case)
@@ -187,16 +187,18 @@ def createsuite1():
     return testunit
 
 
-now = time.strftime("%Y-%m-%d %H_%M_%S",time.localtime())
-filename = "C:\\Users\\Ms. Wang\\PycharmProjects\\report\\result.html"
-fp = open(filename, 'wb')
-filepath = "C:\\Users\\Ms. Wang\\PycharmProjects\\report"
-runner = HTMLTestRunner(output=filepath)
+if __name__ == '__main__':
+    currenttime = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime(time.time()))
+    reportfile = 'ResultReport' + currenttime + '.html'
+    filename = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports\\result.html'
+    fp = open(filename, 'wb')
+    filepath = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports'
 
-runner.run(createsuite1())
+    runner = HTMLTestRunner(output=filepath)
 
+    runner.run(createsuite1())
 
-fp.close()
+    fp.close()
 
 
 
