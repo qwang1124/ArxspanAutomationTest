@@ -62,17 +62,15 @@ def createsuite1():
             print(testunit)
     return testunit
 
+currenttime = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime(time.time()))
+reportfile = 'ResultReport' + currenttime + '.html'
+filename = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports\\result.html'
+fp = open(filename, 'wb')
+filepath = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports'
 
-if __name__ == '__main__':
-    currenttime = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime(time.time()))
-    reportfile = 'ResultReport' + currenttime + '.html'
-    filename = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports\\result.html'
-    fp = open(filename, 'wb')
-    filepath = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports'
+runner = HTMLTestRunner(output=filepath)
 
-    runner = HTMLTestRunner(output=filepath)
+runner.run(createsuite1())
 
-    runner.run(createsuite1())
-
-    fp.close()
+fp.close()
 
