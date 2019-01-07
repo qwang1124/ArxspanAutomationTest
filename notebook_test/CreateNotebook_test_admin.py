@@ -12,7 +12,7 @@ import HtmlTestRunner
 class TEST_CREATNOTEBOOK_ADMIN(unittest.TestCase):
 
     def Test_CreateNotebook(self):
-        driver = test_admin_login(self)
+        driver = TestAdminlogin()
         driver.find_element_by_id('createNewNotebookLeftNavButton').click()
         driver.find_element_by_id('notebookName').send_keys('Test_Notebook_QingWang')
         driver.find_element_by_name('notebookDescription').send_keys('Test Script execution-01/01/2019')
