@@ -37,10 +37,10 @@ class TestNotebookAdmin(unittest.TestCase):
         #     driver.get_screenshot_as_file(picture_name)
         # self.assertTrue(valid)
         #
-        # driver.find_element_by_xpath("//*[text()='View/Write']")
-        # # select = Select(driver.find_element_by_tag_name('select'))
-        # # select.select_by_visible_text('View/Write')
-        # #driver.find_element_by_xpath("//a[@href='javascript:void(0)']").submit()
+        # driver.find_element_by_xpath("//*[@id='newPermissions']").find_element("3")
+        # select = Select(driver.find_element_by_tag_name('select'))
+        # select.select_by_visible_text('View/Write')
+        # driver.find_element_by_xpath("//*[@id='invites'[Div]/table/tbody/tr[1]/td[1]/div/div[7]/table/tbody/tr/td[3]/a").submit()
         #
         # aelements = driver.find_elements_by_tag_name("a")
         # for name in aelements:
@@ -48,11 +48,11 @@ class TestNotebookAdmin(unittest.TestCase):
         #         print("OK")
         #         name.submit()
         #         break
-        dropdown = driver.find_element_by_css_selector('#newPermissions')
-        dropdown = driver.find_element_by_name('param')
-        select = Select(dropdown)
-        select.select_by_value('3')
-        driver.find_element_by_link_text("Change").click()
+        # dropdown = driver.find_element_by_css_selector('#newPermissions')
+        # dropdown = driver.find_element_by_name('param')
+        # select = Select(dropdown)
+        # select.select_by_value('3')
+        # driver.find_element_by_link_text("Change").click()
         driver.find_element_by_link_text("Logout").click()
 
 
@@ -80,7 +80,7 @@ listaa = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\ArxspanAutomationTest
 
 def createsuite1():
     testunit=unittest.TestSuite()
-    discover = unittest.defaultTestLoader.discover(listaa, pattern='*.py', top_level_dir=None)
+    discover = unittest.defaultTestLoader.discover(listaa, pattern='CreateNotebook_test_admin.py', top_level_dir=None)
     for test_suite in discover:
         for test_case in test_suite:
             testunit.addTests(test_case)
