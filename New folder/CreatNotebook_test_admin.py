@@ -17,10 +17,41 @@ class TestCreatenotebookAdmin(unittest.TestCase):
 
     def testcreatenotebook(self):
         driver = testadminlogin()
+
+        # create notebook by admin start
         driver.find_element_by_id('createNewNotebookLeftNavButton').click()
         driver.find_element_by_id('notebookName').send_keys('Test_Notebook_Q')
         driver.find_element_by_name('notebookDescription').send_keys('Test Script execution-01/01/2019')
         driver.find_element_by_name('createNotebook').click()
+
+    def testsharenotebook(self):
+        driver = testadminlogin()
+        driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10733')
+
+        # Share notebook with Joe Chemistry
+        driver.find_element_by_id('shareNotebookLink').click()
+        driver.find_element_by_class_name('groupSelectLink').click()
+        driver.find_element_by_id('expandGroupLink-104').click()
+        driver.find_element_by_id('listGroupCheckUser-936').click()
+        driver.find_element_by_xpath("//input[@type='button' and @value='Select']").click()
+        driver.find_element_by_id('canRead').click()
+        driver.find_element_by_id('canWrite').click()
+        driver.find_element_by_xpath("//input[@type='button' and @value='Share']").click()
+
+        # Share notebook with Jane Biology
+        driver.find_element_by_id('shareNotebookLink').click()
+        driver.find_element_by_class_name('groupSelectLink').click()
+        driver.find_element_by_id('expandGroupLink-105').click()
+        driver.find_element_by_id('listGroupCheckUser-937').click()
+        driver.find_element_by_xpath("//input[@type='button' and @value='Select']").click()
+        driver.find_element_by_id('canRead').click()
+        driver.find_element_by_id('canWrite').click()
+        driver.find_element_by_xpath("//input[@type='button' and @value='Share']").click()
+
+        driver.find_element_by_link_text('Logout').click()
+
+
+
 
         # test_value = driver.find_element_by_id('NotebookTitle').text
         # print(test_value)
@@ -39,33 +70,12 @@ class TestCreatenotebookAdmin(unittest.TestCase):
         #     driver.get_screenshot_as_file(picture_name)
         # self.assertTrue(valid)
 
-        # select = Select(driver.find_element_by_id('newPermissions'))
-        # select.select_by_value('3')
-        # driver.find_element_by_css_selector("a[onclick=changeInvite(29296)]").click()
-        # elms = driver.find_elements_by_tag_name('a')
-        # for elm in elms:
-        #     if elm.text == 'Notebooks':
-        #         elm.click()
-        #
-        # links = driver.find_elements_by_tag_name("a")
-        # for link in links:
-        #     link.get_attribute("href")
-        #     link.get_attribute("changeInvite(29296)")
-        #     link.click()
-        driver.find_element_by_id('shareNotebookLink').click()
-        driver.find_element_by_class_name('groupSelectLink').click()
-        driver.find_element_by_id('expandGroupLink-105').click()
-        driver.find_element_by_id('listGroupCheckUser-937').click()
-        driver.find_element_by_xpath("//input[@type='button' and @value='Select']").click()
-        driver.find_element_by_id('canRead').click()
-        driver.find_element_by_id('canWrite').click()
-        driver.find_element_by_xpath("//input[@type='button' and @value='Share']").click()
-
+        # Logout
         driver.find_element_by_link_text('Logout').click()
 
 
 def testadminlogin():
-    driver = webdriver.Chrome('C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\Driver\\chromedriver.exe')
+    driver = webdriver.Chrome('..\\chromedriver.exe')
     driver.get('https://model.arxspan.com/login.asp')
     driver.maximize_window()
     driver.find_element_by_id('login-email').send_keys('admin@demo.com')

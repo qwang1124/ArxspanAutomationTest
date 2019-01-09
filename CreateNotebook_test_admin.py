@@ -62,7 +62,7 @@ class TestNotebookAdmin(unittest.TestCase):
 
 
 def testadminlogin():
-    driver = webdriver.Chrome('C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\Driver\\chromedriver.exe')
+    driver = webdriver.Chrome('chromedriver.exe')
     driver.get('https://model.arxspan.com/login.asp')
     driver.maximize_window()
     driver.find_element_by_id('login-email').send_keys('admin@demo.com')

@@ -12,21 +12,14 @@ class TestNotebookJoe(unittest.TestCase):
     def test_sharenotebook(self):
         driver = janelogin()
         driver.find_element_by_link_text('Invitations').click()
-        driver.find_element_by_link_text(' Test_Notebook_Q').click()
+        driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10751')
         time.sleep(3)
-
-        # links = driver.find_elements_by_tag_name("a")
-        # for link in links:
-        #     if "_blank" in link.get_attribute("target") and (
-        #             "id=10669" in link.get_attribute("href")):
-        #         link.click()
-
         driver.find_element_by_xpath("//input[@type='button' and @value='Accept']").click()
-        # driver.close()
+        driver.close()
 
 
 def janelogin():
-    driver = webdriver.Chrome('C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\Driver\\chromedriver.exe')
+    driver = webdriver.Chrome('..\\chromedriver.exe')
     driver.get('https://model.arxspan.com/login.asp')
     driver.maximize_window()
     driver.find_element_by_id('login-email').send_keys('jane@demo.com')
@@ -38,7 +31,7 @@ def janelogin():
     return driver
 
 
-listaa = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\ArxspanAutomationTest'
+listaa = '..\\ArxspanAutomationTest'
 
 
 def createsuite1():
@@ -53,9 +46,9 @@ def createsuite1():
 
 currenttime = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime(time.time()))
 reportfile = 'ResultReport' + currenttime + '.html'
-filename = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports\\result.html'
+filename = '..\\reports\\result.html'
 fp = open(filename, 'wb')
-filepath = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports'
+filepath = '..\\reports'
 
 runner = HTMLTestRunner(output=filepath)
 

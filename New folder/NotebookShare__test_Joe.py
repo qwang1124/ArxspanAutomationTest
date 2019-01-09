@@ -12,19 +12,10 @@ class TestNotebookJoe(unittest.TestCase):
     def test_sharenotebook(self):
         driver = joelogin()
         driver.find_element_by_link_text('Invitations').click()
-        driver.find_element_by_link_text(' test-QingWang').click()
-
-        # driver.find_element_by_xpath(".//*[@href='/arxlab/show-notebook.asp?id=10669]").click()
-
-
-
-        # links = driver.find_elements_by_tag_name("a")
-        # for link in links:
-        #     if "_blank" in link.get_attribute("target") and (
-        #             "id=10669" in link.get_attribute("href")):
-        #         link.click()
-
-        driver.find_element_by_css_selector("input[onlick=notebookAccept()]").click()
+        driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10669')
+        time.sleep(3)
+        driver.find_element_by_xpath("//input[@type='button' and @value='Accept']").click()
+        # driver.find_element_by_css_selector("input[onlick=notebookAccept()]").click()
         driver.close()
 
 

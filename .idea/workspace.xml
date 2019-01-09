@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed0fb62b-c9f6-4e24-83fb-87733257eff7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_test/CreateNotebook_test_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/notebook_test/CreateNotebook_test_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create_experiment_jane.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CreateNotebook_test_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateNotebook_test_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/CreatNotebook_test_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/New folder/CreatNotebook_test_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/NotebookShare__test_Joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/New folder/NotebookShare__test_Joe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New folder/NotebookShare_test_Jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/New folder/NotebookShare_test_Jane.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_experiment_joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_experiment_joe.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +17,45 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/notebook_test/CreateNotebook_test_admin.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/create_experiment_joe.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="296">
+              <caret line="108" lean-forward="true" selection-start-line="68" selection-end-line="108" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/create_experiment_jane.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python37/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="784" column="49" selection-start-line="784" selection-start-column="44" selection-end-line="784" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/New folder/NotebookShare_test_Jane.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="10" selection-end-line="19" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -28,6 +65,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -35,13 +79,19 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/notebook_test/CreateNotebook_test_admin.py" />
+        <option value="$PROJECT_DIR$/CreateNotebook_test_admin.py" />
+        <option value="$PROJECT_DIR$/New folder/CreatNotebook_test_admin.py" />
+        <option value="$PROJECT_DIR$/New folder/NotebookShare_test_Jane.py" />
+        <option value="$PROJECT_DIR$/New folder/NotebookShare__test_Joe.py" />
+        <option value="$PROJECT_DIR$/create_experiment_joe.py" />
+        <option value="$PROJECT_DIR$/create_experiment_jane.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="656" />
-    <option name="y" value="32" />
-    <option name="width" value="1400" />
+    <option name="x" value="80" />
+    <option name="y" value="112" />
+    <option name="width" value="1414" />
     <option name="height" value="1045" />
   </component>
   <component name="ProjectView">
@@ -49,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -60,12 +109,13 @@
             <path>
               <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
-              <item name="notebook_test" type="462c0819:PsiDirectoryNode" />
+              <item name="New folder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -88,6 +138,57 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python tests.Unittests for NotebookShare_test_Jane.TestNotebookJoe">
+    <configuration name="Unittests for NotebookShare_test_Jane.TestNotebookJoe" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ArxspanAutomationTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/New folder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;NotebookShare_test_Jane.TestNotebookJoe&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in CreatNotebook_test_admin.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ArxspanAutomationTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/New folder" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/New folder/CreatNotebook_test_admin.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in CreateNotebook_test_admin.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ArxspanAutomationTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/CreateNotebook_test_admin.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests for NotebookShare_test_Jane.TestNotebookJoe" />
+        <item itemvalue="Python tests.Unittests in CreatNotebook_test_admin.py" />
+        <item itemvalue="Python tests.Unittests in CreateNotebook_test_admin.py" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -101,34 +202,152 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_CreateNotebook_test_admin_py - 2019.01.07 at 21h 11m 31s.xml">
+      <configuration name="Unittests in CreateNotebook_test_admin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_CreateNotebook_test_admin_py - 2019.01.07 at 21h 17m 45s.xml">
+      <configuration name="Unittests in CreateNotebook_test_admin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_CreatNotebook_test_admin_py - 2019.01.07 at 21h 19m 10s.xml">
+      <configuration name="Unittests in CreatNotebook_test_admin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_CreatNotebook_test_admin_py - 2019.01.07 at 21h 19m 46s.xml">
+      <configuration name="Unittests in CreatNotebook_test_admin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_CreatNotebook_test_admin_py - 2019.01.07 at 21h 22m 46s.xml">
+      <configuration name="Unittests in CreatNotebook_test_admin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_CreatNotebook_test_admin_py - 2019.01.07 at 21h 25m 01s.xml">
+      <configuration name="Unittests in CreatNotebook_test_admin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_CreatNotebook_test_admin_py - 2019.01.07 at 21h 25m 34s.xml">
+      <configuration name="Unittests in CreatNotebook_test_admin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_CreatNotebook_test_admin_py - 2019.01.07 at 21h 30m 35s.xml">
+      <configuration name="Unittests in CreatNotebook_test_admin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_NotebookShare_test_Jane_TestNotebookJoe - 2019.01.08 at 12h 15m 33s.xml">
+      <configuration name="Unittests for NotebookShare_test_Jane.TestNotebookJoe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_NotebookShare_test_Jane_TestNotebookJoe - 2019.01.08 at 12h 16m 28s.xml">
+      <configuration name="Unittests for NotebookShare_test_Jane.TestNotebookJoe" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="525" y="26" width="1120" height="836" extended-state="0" />
+    <frame x="64" y="90" width="1131" height="836" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34903046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34552103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32954547" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>driver.find_element_by_class_name('changebutton')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>elms</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/notebook_test/CreateNotebook_test_admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="304">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateNotebook_test_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="866">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New folder/NotebookShare__test_Joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New folder/CreatNotebook_test_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="784" column="49" selection-start-line="784" selection-start-column="44" selection-end-line="784" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New folder/NotebookShare_test_Jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="10" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_experiment_joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="108" lean-forward="true" selection-start-line="68" selection-end-line="108" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_experiment_jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

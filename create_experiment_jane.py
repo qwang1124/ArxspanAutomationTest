@@ -9,10 +9,13 @@ import unittest, time, re, os
 import HtmlTestRunner
 
 
-class TestCreateexperimentJoe(unittest.TestCase):
+class TestCreateexperimentJane(unittest.TestCase):
 
-    def test_createexperiment(self):
-        driver = testjoelogin()
+    def test_createexperiment_Jane(self):
+        driver = testjanelogin()
+        driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10753')
+        driver.find_element_by_link_text('Biology Experiment').click()
+
         driver.find_element_by_id('createNewExperimentLeftNavButton').click()
         select = Select(driver.find_element_by_id('newExperimentNotebookId'))
         select.select_by_visible_text('Test_Notebook_QingWang')
@@ -33,45 +36,13 @@ class TestCreateexperimentJoe(unittest.TestCase):
         select.select_by_visible_text('Jane Biologist')
         driver.find_element_by_xpath("//button[contains(@onclick = \'clickSign();\')]").click()
 
-        # upload
-        # elm = driver.find_element_by_xpath("//input[@type='file']")
-        # elm.send_keys(os.getcwd() + "\\Users\Ms. Wang\\Downloads\\arxspan\\Alports Histology Analysis")
 
-        # driver.find_element_by_id('addFile_tab').click()
-        # driver.find_element_by_id('resumableFile1').click()
-        # time.sleep(2)
-        # driver.find_element_by_id('resumableActualFileName').send_keys('C:\\Users\\Ms. Wang\\Downloads\\arxspan'
-        #                                                                '\\Alports Histology Analysis')
-        # time.sleep(2)
-        # driver.find_element_by_class_name('resumableUploadButton').click()
-        # upload.get_attribute('value')
-
-        driver.quit()
-
-        # test_value = driver.find_element_by_id('NotebookTitle').text
-        # print(test_value)
-        # a = 'Test_Notebook_QingWang'
-        # test_value2 = driver.find_element_by_id('notebookOwnerSpan').text
-        # b = 'System Administrator'
-        # test_value3 =driver.find_element_by_id('notebookDescription').text
-        # print(test_value2)
-        # c = 'Test Script execution-01/01/2019'
-        #
-        # if a in test_value and b in test_value2 and c in test_value3:
-        #     valid = True
-        # else:
-        #     valid = False
-        #     picture_name = 'test_CreateNotebookAdmin_' + str(time.strftime('%Y%m%d%H%M%S')) + ' .png'
-        #     driver.get_screenshot_as_file(picture_name)
-        # self.assertTrue(valid)
-
-
-def testjoelogin():
+def testjanelogin():
     # driver = webdriver.Chrome('C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver')
     driver = webdriver.Chrome()
     driver.get('https://model.arxspan.com/login.asp')
     driver.maximize_window()
-    driver.find_element_by_id('login-email').send_keys('joe@demo.com')
+    driver.find_element_by_id('login-email').send_keys('jane@demo.com')
     driver.find_element_by_id('login-pass').send_keys('carbonCopee')
     driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
     time.sleep(1)
@@ -106,3 +77,4 @@ runner = HTMLTestRunner(output=filepath)
 runner.run(createsuite1())
 
 fp.close()
+
