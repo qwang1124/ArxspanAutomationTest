@@ -9,33 +9,38 @@ from selenium.webdriver.support.ui import Select
 
 class TestCreateexperimentJoe(unittest.TestCase):
 
-    # def test_createexperiment(self):
-    #     driver = testjoelogin()
-    #     driver.find_element_by_id('createNewExperimentLeftNavButton').click()
-    #     select = Select(driver.find_element_by_id('newExperimentNotebookId'))
-    #     select.select_by_visible_text('Test_Notebook_QingWang')
-    #     select1 = Select(driver.find_element_by_id('newExperimentTypeList'))
-    #     select1.select_by_visible_text('Chemistry')
-    #     driver.find_element_by_tag_name('button').click()
-    #     driver.close()S
-
-    def test_addnote(self):
+    def test_createexperiment(self):
         driver = testjoelogin()
-        driver.get('https://model.arxspan.com/arxlab/experiment_no_chemdraw.asp?id=235143')
-        driver.find_element_by_id('addNoteButton').click()
-        # Switch to frame failed
+        driver.find_element_by_id('createNewExperimentLeftNavButton').click()
+        select = Select(driver.find_element_by_id('newExperimentNotebookId'))
+        select.select_by_visible_text('Test_Notebook_QingWang')
+        select1 = Select(driver.find_element_by_id('newExperimentTypeList'))
+        select1.select_by_visible_text('Chemistry')
+        driver.find_element_by_tag_name('button').click()
+        driver.close()
 
-        # driver.switch_to.frame('cke_wysiwyg_frame cke_reset')
-        # driver.switch_to.default_content()
-        body_string = "TestExperimentNote0109"
-        elm = driver.find_element_by_xpath(
-            "//body[@class = 'cke_editable cke_editable_themed cke_contents_ltr cke_show_borders']")
-        elm.send_keys(body_string)
+    # def test_addnote(self):
+    #     driver = testjoelogin()
+    #     driver.get('https://model.arxspan.com/arxlab/experiment_no_chemdraw.asp?id=235143')
+    #     driver.find_element_by_id('addNoteButton').click()
+    #
+    #     driver.switchTo().frame(0)
+    #     elm = driver.switchTo().activeElement()
+    #     newActions(driver).moveToElement(elm).perform()
+    #     driver.find_element_by_xpath("/html/body").sendKeys("Check")
+    # Switch to frame failed
 
-    #     # elm = driver.find_element_by_class_name('cke_editable cke_editable_themed cke_contents_ltr cke_show_borders')
-    #     # elm.send_keys(Keys.TAB)
-    #     # elm.click()
-    #     # elm.send_keys(u'TestExperimentNote0109')
+    # driver.switch_to.frame('cke_wysiwyg_frame cke_reset')
+    # driver.switch_to.default_content()
+    # body_string = "TestExperimentNote0109"
+    # elm = driver.find_element_by_xpath(
+    #     "//body[@class = 'cke_editable cke_editable_themed cke_contents_ltr cke_show_borders']")
+    # elm.send_keys(body_string)
+
+    #     elm = driver.find_element_by_class_name('cke_editable cke_editable_themed cke_contents_ltr cke_show_borders')
+    #     elm.send_keys(Keys.TAB)
+    #     elm.click()
+    #     elm.send_keys(u'TestExperimentNote0109')
     #     driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
     #     driver.find_element_by_id('signExperimentButton').click()
     #     select = Select(driver.find_element_by_id('signStatusBox'))
@@ -45,52 +50,45 @@ class TestCreateexperimentJoe(unittest.TestCase):
     #     driver.find_element_by_xpath("//button[contains(@onclick = \'clickSign();\')]").click()
 
     # upload
-    # def test_addfile(self):
-    #     driver = testjoelogin()
-    #     driver.get('https://model.arxspan.com/arxlab/experiment_no_chemdraw.asp?id=235143')
-    #     # driver.find_element_by_id('addFileButton').click()
-    #     # elm = driver.find_element_by_xpath("//input[@type='file']")
-    #     # elm.send_keys('C:\\Users\\QingW\\Downloads\\fwdtestscriptsandtestingfiles\\06epoxideopening.cdx')
-    #     # time.sleep(2)
-    #     # driver.find_element_by_class_name('resumableUploadButton').click()
-    #
-    #     driver.find_element_by_id('uploadReaction').click()
-    #     driver.find_element_by_id('rxnFile').send_keys('C:\\Users\\QingW\\Downloads'
-    #                                                    '\\fwdtestscriptsandtestingfiles\\06epoxideopening.cdx')
-    #     time.sleep(2)
-    #     driver.find_element_by_xpath("//button[contains(@onclick, 'rxnFile')]").click()
-
-        # driver.find_element_by_id('addFile_tab').click()
-        # driver.find_element_by_id('resumableFile1').click()
-        # time.sleep(2)
-        # driver.find_element_by_id('resumableActualFileName').send_keys('C:\\Users\\Ms. Wang\\Downloads\\arxspan'
-        #                                                                '\\Alports Histology Analysis')
-        # time.sleep(2)
-        # driver.find_element_by_class_name('resumableUploadButton').click()
-        # upload.get_attribute('value')
-
+    def test_uploadreaction(self):
+        driver = testjoelogin()
+        driver.get('https://model.arxspan.com/arxlab/experiment_no_chemdraw.asp?id=235143')
+        driver.find_element_by_id('uploadReaction').click()
+        driver.find_element_by_id('rxnFile').send_keys('C:\\Users\\QingW\\Downloads'
+                                                       '\\fwdtestscriptsandtestingfiles\\06epoxideopening.cdx')
+        time.sleep(2)
+        driver.find_element_by_xpath("//button[contains(@onclick, 'rxnFile')]").click()
         driver.quit()
 
-        # test_value = driver.find_element_by_id('NotebookTitle').text
-        # print(test_value)
-        # a = 'Test_Notebook_QingWang'
-        # test_value2 = driver.find_element_by_id('notebookOwnerSpan').text
-        # b = 'System Administrator'
-        # test_value3 =driver.find_element_by_id('notebookDescription').text
-        # print(test_value2)
-        # c = 'Test Script execution-01/01/2019'
-        #
-        # if a in test_value and b in test_value2 and c in test_value3:
-        #     valid = True
-        # else:
-        #     valid = False
-        #     picture_name = 'test_CreateNotebookAdmin_' + str(time.strftime('%Y%m%d%H%M%S')) + ' .png'
-        #     driver.get_screenshot_as_file(picture_name)
-        # self.assertTrue(valid)
+    # test_value = driver.find_element_by_id('NotebookTitle').text
+    # print(test_value)
+    # a = 'Test_Notebook_QingWang'
+    # test_value2 = driver.find_element_by_id('notebookOwnerSpan').text
+    # b = 'System Administrator'
+    # test_value3 =driver.find_element_by_id('notebookDescription').text
+    # print(test_value2)
+    # c = 'Test Script execution-01/01/2019'
+    #
+    # if a in test_value and b in test_value2 and c in test_value3:
+    #     valid = True
+    # else:
+    #     valid = False
+    #     picture_name = 'test_CreateNotebookAdmin_' + str(time.strftime('%Y%m%d%H%M%S')) + ' .png'
+    #     driver.get_screenshot_as_file(picture_name)
+    # self.assertTrue(valid)
+
+    def test_addfile(self):
+        driver = testjoelogin()
+        driver.get('https://model.arxspan.com/arxlab/experiment_no_chemdraw.asp?id=235143')
+        driver.find_element_by_id('addFile_tab').click()
+        driver.find_element_by_id('resumableFile1').send_keys('C:\\Users\\Ms. Wang\\Downloads\\arxspan'
+                                                              '\\nmr ketal reduction2 1H.txt')
+        time.sleep(2)
+        driver.find_element_by_class_name('resumableUploadButton').click()
+        driver.quit()
 
 
 def testjoelogin():
-    # driver = webdriver.Chrome('C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver')
     driver = webdriver.Chrome()
     driver.get('https://model.arxspan.com/login.asp')
     driver.maximize_window()
@@ -104,7 +102,7 @@ def testjoelogin():
     return driver
 
 
-listaa = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\ArxspanAutomationTest'
+listaa = 'C:\\Users\\Ms. Wang\\Downloads\\ArxspanAutomationTest'
 
 
 def createsuite1():
@@ -119,9 +117,9 @@ def createsuite1():
 
 currenttime = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime(time.time()))
 reportfile = 'ResultReport' + currenttime + '.html'
-filename = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports\\result.html'
+filename = 'C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\reports\\result.html'
 fp = open(filename, 'wb')
-filepath = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports'
+filepath = 'C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\reports'
 
 runner = HTMLTestRunner(output=filepath)
 # runner = HTMLTestRunner()
