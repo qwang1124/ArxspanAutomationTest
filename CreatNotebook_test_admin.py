@@ -56,9 +56,6 @@ class TestCreatenotebookAdmin(unittest.TestCase):
 
         driver.find_element_by_link_text('Logout').click()
 
-
-
-
         # test_value = driver.find_element_by_id('NotebookTitle').text
         # print(test_value)
         # a = 'Test_Notebook_QingWang'

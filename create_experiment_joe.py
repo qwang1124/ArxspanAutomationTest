@@ -23,25 +23,10 @@ class TestCreateexperimentJoe(unittest.TestCase):
     #     driver = testjoelogin()
     #     driver.get('https://model.arxspan.com/arxlab/experiment_no_chemdraw.asp?id=235143')
     #     driver.find_element_by_id('addNoteButton').click()
-    #
-    #     driver.switchTo().frame(0)
-    #     elm = driver.switchTo().activeElement()
-    #     newActions(driver).moveToElement(elm).perform()
-    #     driver.find_element_by_xpath("/html/body").sendKeys("Check")
-    # Switch to frame failed
+    #     driver.executeScript("arguments[0].innerHTML = 'Set text using innerHTML'", 'checkcheck')
+    #     driver.find_element_by_link_text('Save').click()
+    #     driver.quit()
 
-    # driver.switch_to.frame('cke_wysiwyg_frame cke_reset')
-    # driver.switch_to.default_content()
-    # body_string = "TestExperimentNote0109"
-    # elm = driver.find_element_by_xpath(
-    #     "//body[@class = 'cke_editable cke_editable_themed cke_contents_ltr cke_show_borders']")
-    # elm.send_keys(body_string)
-
-    #     elm = driver.find_element_by_class_name('cke_editable cke_editable_themed cke_contents_ltr cke_show_borders')
-    #     elm.send_keys(Keys.TAB)
-    #     elm.click()
-    #     elm.send_keys(u'TestExperimentNote0109')
-    #     driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
     #     driver.find_element_by_id('signExperimentButton').click()
     #     select = Select(driver.find_element_by_id('signStatusBox'))
     #     select.select_by_visible_text('Sign and Close')
@@ -79,10 +64,15 @@ class TestCreateexperimentJoe(unittest.TestCase):
 
     def test_addfile(self):
         driver = testjoelogin()
-        driver.get('https://model.arxspan.com/arxlab/experiment_no_chemdraw.asp?id=235143')
+        driver.get('https://model.arxspan.com/arxlab/experiment_no_chemdraw.asp?id=235248')
         driver.find_element_by_id('addFile_tab').click()
-        driver.find_element_by_id('resumableFile1').send_keys('C:\\Users\\Ms. Wang\\Downloads\\arxspan'
-                                                              '\\nmr ketal reduction2 1H.txt')
+        fileinput = driver.find_element_by_css_selector('#fileInputContainer > div > input[type="file"]')
+        driver.execute_script(
+            'arguments[0].style = ""; arguments[0].style.display = "block"; arguments[0].style.visibility = "visible";',
+            fileinput)
+        driver.find_element_by_css_selector('#fileInputContainer > div > input[type="file"]').send_keys(
+            'C:\\Users\\Ms. Wang\\Downloads\\arxspan'
+            '\\nmr ketal reduction2 1H.txt')
         time.sleep(2)
         driver.find_element_by_class_name('resumableUploadButton').click()
         driver.quit()
