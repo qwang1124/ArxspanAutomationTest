@@ -11,6 +11,7 @@ import HtmlTestRunner
 
 class TestCreateexperimentJane(unittest.TestCase):
 
+<<<<<<< HEAD
     # def test_createexperiment_jane(self):
     #     driver = testjanelogin()
     #     driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
@@ -44,6 +45,32 @@ class TestCreateexperimentJane(unittest.TestCase):
         # select = Select(driver.find_element_by_id('requesteeIdBox'))
         # select.select_by_visible_text('Jane Biologist')
         # driver.find_element_by_xpath("//button[contains(@onclick = \'clickSign();\')]").click()
+=======
+    def test_createexperiment_Jane(self):
+        driver = testjanelogin()
+        driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10753')
+        driver.find_element_by_link_text('Biology Experiment').click()
+
+        driver.find_element_by_id('createNewExperimentLeftNavButton').click()
+        select = Select(driver.find_element_by_id('newExperimentNotebookId'))
+        select.select_by_visible_text('Test_Notebook_QingWang')
+        select1 = Select(driver.find_element_by_id('newExperimentTypeList'))
+        select1.select_by_visible_text('Chemistry')
+        driver.find_element_by_tag_name('button').click()
+        driver.find_element_by_id('addNoteButton').click()
+
+        driver.switch_to.frame('cke_wysiwyg_frame cke_reset')
+        elm = driver.find_element_by_class_name('cke_editable cke_editable_themed cke_contents_ltr cke_show_borders')
+        elm.send_keys(Keys.TAB)
+        elm.send_keys(u'TestExperimentNote0109')
+        driver.find_element_by_xpath('//a[contains(@onclick = \'clickSave();\')]').click()
+        driver.find_element_by_id('signExperimentButton').click()
+        select = Select(driver.find_element_by_id('signStatusBox'))
+        select.select_by_visible_text('Sign and Close')
+        select = Select(driver.find_element_by_id('requesteeIdBox'))
+        select.select_by_visible_text('Jane Biologist')
+        driver.find_element_by_xpath("//button[contains(@onclick = \'clickSign();\')]").click()
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
 
 
 def testjanelogin():
@@ -56,7 +83,11 @@ def testjanelogin():
     driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
     time.sleep(1)
     select = Select(driver.find_element_by_tag_name('select'))
+<<<<<<< HEAD
     select.select_by_visible_text('Model Test Script Company')
+=======
+    select.select_by_visible_text('Demo')
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
     driver.find_element_by_id('login-submit').send_keys(Keys.ENTER)
     return driver
 

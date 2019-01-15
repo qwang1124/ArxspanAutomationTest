@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="4ad229bb-f232-4aa0-b051-bd6381c227cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create_experiment_jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_experiment_jane.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebook_test/CreateNotebook_test_admin.py" beforeDir="false" />
+=======
+    <list default="true" id="ed0fb62b-c9f6-4e24-83fb-87733257eff7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/CreateAnalyticalExperiment_test_joe.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_experiment_joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_experiment_joe.py" afterDir="false" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +19,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FavoritesManager">
     <favorites_list name="ArxspanAutomationTest" />
   </component>
@@ -22,6 +30,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="53" column="47" selection-start-line="52" selection-start-column="10" selection-end-line="56" selection-end-column="78" />
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/create_experiment_joe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -30,16 +47,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/New folder (2)/NotebookShare_test_Jane.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-306">
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://C:/Python37/Lib/unittest/case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="622" selection-start-line="622" selection-end-line="622" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create_experiment_jane.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,6 +72,15 @@
               <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CreateAnalyticalExperiment_test_joe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
               </folding>
             </state>
           </provider>
@@ -67,6 +101,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$USER_HOME$/AppData/Local/Temp/Temp1_ArxspanAutomationTest-master.zip/Notebookshare_test_Joe.py" />
         <option value="$PROJECT_DIR$/NotebookShare__test_Joe.py" />
         <option value="$PROJECT_DIR$/NotebookShare_test_Jane.py" />
@@ -75,21 +110,42 @@
         <option value="$PROJECT_DIR$/create_experiment_joe.py" />
         <option value="$PROJECT_DIR$/notebook_test/CreateNotebook_test_admin.py" />
         <option value="$PROJECT_DIR$/create_experiment_jane.py" />
+=======
+        <option value="$PROJECT_DIR$/notebook_test/CreateNotebook_test_admin.py" />
+        <option value="$PROJECT_DIR$/CreateNotebook_test_admin.py" />
+        <option value="$PROJECT_DIR$/New folder/CreatNotebook_test_admin.py" />
+        <option value="$PROJECT_DIR$/New folder/NotebookShare__test_Joe.py" />
+        <option value="$PROJECT_DIR$/create_experiment_jane.py" />
+        <option value="$PROJECT_DIR$/New folder/NotebookShare_test_Jane.py" />
+        <option value="C:/Python37/Lib/site-packages/selenium/webdriver/chrome/webdriver.py" />
+        <option value="$PROJECT_DIR$/CreatNotebook_test_admin.py" />
+        <option value="$PROJECT_DIR$/CreateAnalyticalExperiment_test_joe.py" />
+        <option value="$PROJECT_DIR$/create_experiment_joe.py" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="650" />
     <option name="y" value="99" />
     <option name="width" value="1116" />
     <option name="height" value="922" />
+=======
+    <option name="x" value="-199" />
+    <option name="width" value="1387" />
+    <option name="height" value="1025" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -100,17 +156,22 @@
             <path>
               <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="New folder (2)" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
               <item name="notebook_test" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="New folder" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,6 +183,17 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest" />
+=======
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../arxspan_automation_testing" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ms. Wang\Downloads\ArxspanAutomationTest" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
     </key>
   </component>
   <component name="RunDashboard">
@@ -136,50 +208,91 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python tests.Unittests for create_experiment_jane.TestCreateexperimentJane">
     <configuration name="Unittests for CreateNotebook_test_admin.TestNotebookAdmin" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python tests.Unittests for create_experiment_joe.TestCreateexperimentJoe">
+    <configuration name="Unittests for NotebookShare_test_Jane.TestNotebookJoe" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <module name="ArxspanAutomationTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notebook_test" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/New folder" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;CreateNotebook_test_admin.TestNotebookAdmin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for CreateNotebook_test_admin.TestNotebookAdmin.test_createnotebook" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_target" value="&quot;NotebookShare_test_Jane.TestNotebookJoe&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <module name="ArxspanAutomationTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notebook_test" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;CreateNotebook_test_admin.TestNotebookAdmin.test_createnotebook&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for CreateNotebook_test_admin.TestNotebookAdmin.testsharenotebookjane" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_target" value="&quot;create_experiment_joe.TestCreateexperimentJoe&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addfile" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <module name="ArxspanAutomationTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/notebook_test" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;CreateNotebook_test_admin.TestNotebookAdmin.testsharenotebookjane&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for create_experiment_jane.TestCreateexperimentJane" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_target" value="&quot;create_experiment_joe.TestCreateexperimentJoe.test_addfile&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addnote" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <module name="ArxspanAutomationTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -189,11 +302,19 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;create_experiment_jane.TestCreateexperimentJane&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addnote" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+=======
+      <option name="_new_target" value="&quot;create_experiment_joe.TestCreateexperimentJoe.test_addnote&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in create_experiment_joe.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <module name="ArxspanAutomationTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -203,17 +324,30 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
+<<<<<<< HEAD
       <option name="_new_target" value="&quot;create_experiment_joe.TestCreateexperimentJoe.test_addnote&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+=======
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/create_experiment_joe.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python tests.Unittests for create_experiment_jane.TestCreateexperimentJane" />
         <item itemvalue="Python tests.Unittests for CreateNotebook_test_admin.TestNotebookAdmin.test_createnotebook" />
         <item itemvalue="Python tests.Unittests for CreateNotebook_test_admin.TestNotebookAdmin.testsharenotebookjane" />
         <item itemvalue="Python tests.Unittests for CreateNotebook_test_admin.TestNotebookAdmin" />
         <item itemvalue="Python tests.Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addnote" />
+=======
+        <item itemvalue="Python tests.Unittests for create_experiment_joe.TestCreateexperimentJoe" />
+        <item itemvalue="Python tests.Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addnote" />
+        <item itemvalue="Python tests.Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addfile" />
+        <item itemvalue="Python tests.Unittests in create_experiment_joe.py" />
+        <item itemvalue="Python tests.Unittests for NotebookShare_test_Jane.TestNotebookJoe" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       </list>
     </recent_temporary>
   </component>
@@ -222,15 +356,24 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="4ad229bb-f232-4aa0-b051-bd6381c227cd" name="Default Changelist" comment="" />
       <created>1546867742881</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1546867742881</updated>
+=======
+      <changelist id="ed0fb62b-c9f6-4e24-83fb-87733257eff7" name="Default Changelist" comment="" />
+      <created>1546826325653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546826325653</updated>
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe_test_addfile - 2019.01.09 at 13h 37m 17s.xml">
       <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addfile" configurationId="tests" />
     </history-entry>
@@ -273,11 +416,59 @@
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32953104" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39923954" />
+=======
+    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe - 2019.01.14 at 20h 59m 26s.xml">
+      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe - 2019.01.14 at 21h 32m 29s.xml">
+      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe_test_addnote - 2019.01.14 at 21h 35m 26s.xml">
+      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addnote" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe - 2019.01.14 at 21h 35m 27s.xml">
+      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe - 2019.01.14 at 21h 44m 01s.xml">
+      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe - 2019.01.14 at 21h 51m 02s.xml">
+      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe - 2019.01.14 at 21h 54m 24s.xml">
+      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe - 2019.01.14 at 21h 55m 29s.xml">
+      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe - 2019.01.14 at 22h 07m 49s.xml">
+      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe - 2019.01.14 at 22h 08m 38s.xml">
+      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-19" y="0" width="1061" height="830" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36914062" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33430234" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39111748" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.38529783" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32808024" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -289,6 +480,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+<<<<<<< HEAD
           <url>file://$PROJECT_DIR$/notebook_test/createnotebook_test_admin.py</url>
           <line>34</line>
           <option name="timeStamp" value="5" />
@@ -306,11 +498,24 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
+=======
+          <url>file://$PROJECT_DIR$/create_experiment_joe.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/create_experiment_joe.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
+<<<<<<< HEAD
         <expression-string>driver.find_element_by_xpath(&quot;//body[@class = 'cke_editable cke_editable_themed cke_contents_ltr cke_show_borders']&quot;)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -328,12 +533,73 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+=======
+        <expression-string>element.text</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_tag_name('body').find_element_by_tag_name('p')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_tag_name('body').find_element_by_tag_name('p').text</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_tag_name('body').find_element_by_tag_name('p').text = &quot;hello&quot;</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_tag_name('body').find_element_by_tag_name('p').text(&quot;hello&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_tag_name('body')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_class_name('cke_editable_themed')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_class_name('cke_editable')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_id('addNoteButton').click()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>elms</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/notebook_test/CreateNotebook_test_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/AppData/Python37/Lib/unittest/loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1373">
@@ -345,32 +611,80 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+=======
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New folder/CreatNotebook_test_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="30" column="43" lean-forward="true" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python37/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14592">
+          <caret line="784" column="49" selection-start-line="784" selection-start-column="44" selection-end-line="784" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/New folder/NotebookShare_test_Jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="51" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/NotebookShare__test_Joe.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+=======
+    <entry file="file://C:/Python37/Lib/site-packages/selenium/webdriver/chrome/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="162" column="26" selection-start-line="162" selection-start-column="22" selection-end-line="162" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreateNotebook_test_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/notebook_test/createnotebook_test_admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+=======
+    <entry file="file://$PROJECT_DIR$/CreatNotebook_test_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$USER_HOME$/AppData/Python37/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
@@ -382,22 +696,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="75" column="75" lean-forward="true" selection-start-line="75" selection-start-column="75" selection-end-line="75" selection-end-column="75" />
+=======
+    <entry file="file://$PROJECT_DIR$/New folder/NotebookShare__test_Joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="51" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/create_experiment_jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/create_experiment_joe.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="53" column="47" selection-start-line="52" selection-start-column="10" selection-end-line="56" selection-end-column="78" />
+=======
+    <entry file="file://$PROJECT_DIR$/CreateAnalyticalExperiment_test_joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/New folder (2)/NotebookShare_test_Jane.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
@@ -413,6 +751,21 @@
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+=======
+    <entry file="file://C:/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="622" selection-start-line="622" selection-end-line="622" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/create_experiment_joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
           </folding>
         </state>
       </provider>

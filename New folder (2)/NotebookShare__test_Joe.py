@@ -9,10 +9,19 @@ import unittest, time, re, os
 
 class TestNotebookJoe(unittest.TestCase):
 
+<<<<<<< HEAD:New folder (2)/NotebookShare__test_Joe.py
     def test_sharenotebook(self):
         driver = joelogin()
         driver.find_element_by_link_text('Invitations').click()
         driver.find_element_by_link_text(' test-QingWang').click()
+=======
+    def Test_CreateNotebook(self):
+        driver = TestAdminlogin()
+        driver.find_element_by_id('createNewNotebookLeftNavButton').click()
+        driver.find_element_by_id('notebookName').send_keys('Test_Notebook_QingWang')
+        driver.find_element_by_name('notebookDescription').send_keys('Test Script execution-01/01/2019')
+        driver.find_element_by_name('createNotebook').click()
+>>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638:notebook_test/CreateNotebook_test_admin.py
 
         # driver.find_element_by_xpath(".//*[@href='/arxlab/show-notebook.asp?id=10669]").click()
 
