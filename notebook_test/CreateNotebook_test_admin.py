@@ -14,10 +14,11 @@ class TestNotebookAdmin(unittest.TestCase):
 
     def test_createnotebook(self):
         driver = testadminlogin()
-        driver.find_element_by_id('createNewNotebookLeftNavButton').click()
-        driver.find_element_by_id('notebookName').send_keys('Test_Notebook_QingWang')
-        driver.find_element_by_name('notebookDescription').send_keys('Test Script execution-01/01/2019')
-        driver.find_element_by_name('createNotebook').click()
+        driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10733')
+        # driver.find_element_by_id('createNewNotebookLeftNavButton').click()
+        # driver.find_element_by_id('notebookName').send_keys('Test_Notebook_QingWang')
+        # driver.find_element_by_name('notebookDescription').send_keys('Test Script execution-01/01/2019')
+        # driver.find_element_by_name('createNotebook').click()
 
 
         # test_value = driver.find_element_by_id('NotebookTitle').text
@@ -37,10 +38,34 @@ class TestNotebookAdmin(unittest.TestCase):
         #     driver.get_screenshot_as_file(picture_name)
         # self.assertTrue(valid)
         #
-        # driver.find_element_by_xpath("//*[@id='newPermissions']").find_element("3")
-        # select = Select(driver.find_element_by_tag_name('select'))
-        # select.select_by_visible_text('View/Write')
-        # driver.find_element_by_xpath("//*[@id='invites'[Div]/table/tbody/tr[1]/td[1]/div/div[7]/table/tbody/tr/td[3]/a").submit()
+        driver.find_element_by_id('shareNotebookLink').click()
+        driver.find_element_by_class_name('groupSelectLink').click()
+        driver.find_element_by_id('expandGroupLink-105').click()
+        driver.find_element_by_id('listGroupCheckUser-936').click()
+        # # driver.find_element_by_xpath("//input[contains(@onclick = 'userCheck(104,936)')]").click()
+        # checkbox = driver.find_element_by_xpath("//input[contains(@onclick = 'userCheck(104,936)')]")
+        # if not checkbox.is_selected():
+        #         checkbox.click()
+        # time.sleep(4)
+        driver.find_element_by_xpath('//input[@type="button" and @value="Select"]').click()
+        driver.find_element_by_id('canRead').click()
+        driver.find_element_by_id('canWrite').click()
+        driver.find_element_by_xpath("//input[@type='button' and @value='Share']").click()
+
+    # def testsharenotebookjane(self):
+    #     driver = testadminlogin()
+    #     driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10733')
+    #     driver.find_element_by_id('shareNotebookLink').click()
+    #     driver.find_element_by_class_name('groupSelectLink').click()
+    #     driver.find_element_by_id('expandGroupLink-105').click()
+    #     driver.find_element_by_id('listGroupCheckUser-937').click()
+    #     driver.find_element_by_xpath("//input[@type='button' and @value='Select']").click()
+    #     driver.find_element_by_id('canRead').click()
+    #     driver.find_element_by_id('canWrite').click()
+    #     driver.find_element_by_xpath("//input[@type='button' and @value='Share']").click()
+    #
+    #     driver.find_element_by_link_text('Logout').click()
+
         #
         # aelements = driver.find_elements_by_tag_name("a")
         # for name in aelements:

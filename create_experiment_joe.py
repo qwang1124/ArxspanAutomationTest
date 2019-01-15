@@ -25,12 +25,14 @@ class TestCreateexperimentJoe(unittest.TestCase):
         driver.find_element_by_id('addNoteButton').click()
         # Switch to frame failed
 
-        # driver.switch_to.frame('cke_wysiwyg_frame cke_reset')
+        # driver.switch_to.frame(driver.find_element_by_class_name('cke_wysiwyg_frame cke_reset'))
         # driver.switch_to.default_content()
-        body_string = "TestExperimentNote0109"
-        elm = driver.find_element_by_xpath(
-            "//body[@class = 'cke_editable cke_editable_themed cke_contents_ltr cke_show_borders']")
-        elm.send_keys(body_string)
+        text = driver.find_element_by_css_selector('body > p')
+        text.send_keys('11111111111')
+        # driver.execute_script("arguments[0].innerHTML = 'Set text using innerHTML'", text)
+        driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
+
+
 
     #     # elm = driver.find_element_by_class_name('cke_editable cke_editable_themed cke_contents_ltr cke_show_borders')
     #     # elm.send_keys(Keys.TAB)

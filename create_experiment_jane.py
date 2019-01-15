@@ -11,19 +11,18 @@ import HtmlTestRunner
 
 class TestCreateexperimentJane(unittest.TestCase):
 
-    def test_createexperiment_Jane(self):
+    def test_createexperiment_jane(self):
         driver = testjanelogin()
-        driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10753')
+        driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
         driver.find_element_by_link_text('Biology Experiment').click()
+        driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
 
-        driver.find_element_by_id('createNewExperimentLeftNavButton').click()
-        select = Select(driver.find_element_by_id('newExperimentNotebookId'))
-        select.select_by_visible_text('Test_Notebook_QingWang')
-        select1 = Select(driver.find_element_by_id('newExperimentTypeList'))
-        select1.select_by_visible_text('Chemistry')
-        driver.find_element_by_tag_name('button').click()
-        driver.find_element_by_id('addNoteButton').click()
-
+    def test_addexperimentdescription_jane(self):
+        driver = testjanelogin()
+        driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
+        driver.find_element_by_id('e_details').send_keys('TESTING')
+        driver.switch_to.frame(driver.find_element_by_class_name('cke_wysiwyg_frame cke_reset'))
+        driver.switch_to.default_content()
         driver.switch_to.frame('cke_wysiwyg_frame cke_reset')
         elm = driver.find_element_by_class_name('cke_editable cke_editable_themed cke_contents_ltr cke_show_borders')
         elm.send_keys(Keys.TAB)
