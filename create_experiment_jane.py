@@ -11,29 +11,39 @@ import HtmlTestRunner
 
 class TestCreateexperimentJane(unittest.TestCase):
 
-    def test_createexperiment_jane(self):
-        driver = testjanelogin()
-        driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
-        driver.find_element_by_link_text('Biology Experiment').click()
-        driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
+    # def test_createexperiment_jane(self):
+    #     driver = testjanelogin()
+    #     driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
+    #     driver.find_element_by_link_text('Biology Experiment').click()
+    #     driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
 
     def test_addexperimentdescription_jane(self):
         driver = testjanelogin()
         driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
         driver.find_element_by_id('e_details').send_keys('TESTING')
-        driver.switch_to.frame(driver.find_element_by_class_name('cke_wysiwyg_frame cke_reset'))
-        driver.switch_to.default_content()
-        driver.switch_to.frame('cke_wysiwyg_frame cke_reset')
-        elm = driver.find_element_by_class_name('cke_editable cke_editable_themed cke_contents_ltr cke_show_borders')
-        elm.send_keys(Keys.TAB)
-        elm.send_keys(u'TestExperimentNote0109')
-        driver.find_element_by_xpath('//a[contains(@onclick = \'clickSave();\')]').click()
-        driver.find_element_by_id('signExperimentButton').click()
-        select = Select(driver.find_element_by_id('signStatusBox'))
-        select.select_by_visible_text('Sign and Close')
-        select = Select(driver.find_element_by_id('requesteeIdBox'))
-        select.select_by_visible_text('Jane Biologist')
-        driver.find_element_by_xpath("//button[contains(@onclick = \'clickSign();\')]").click()
+
+    def test_addprotocolfile_jane(self):
+        driver = testjanelogin()
+        driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
+        driver.find_element_by_id('addFile_tab').click()
+        elm = driver.find_element_by_xpath("//input[@type='file']")
+        elm.send_keys('C:\\Users\\QingW\\Downloads\\PushTestingProtocolforELN.docx')
+        time.sleep(2)
+        driver.find_element_by_xpath("//button[contains(@type ='submit')]").click()
+
+        # driver.switch_to.frame(driver.find_element_by_class_name('cke_wysiwyg_frame cke_reset'))
+        # driver.switch_to.default_content()
+        # driver.switch_to.frame('cke_wysiwyg_frame cke_reset')
+        # elm = driver.find_element_by_class_name('cke_editable cke_editable_themed cke_contents_ltr cke_show_borders')
+        # elm.send_keys(Keys.TAB)
+        # elm.send_keys(u'TestExperimentNote0109')
+        # driver.find_element_by_xpath('//a[contains(@onclick = \'clickSave();\')]').click()
+        # driver.find_element_by_id('signExperimentButton').click()
+        # select = Select(driver.find_element_by_id('signStatusBox'))
+        # select.select_by_visible_text('Sign and Close')
+        # select = Select(driver.find_element_by_id('requesteeIdBox'))
+        # select.select_by_visible_text('Jane Biologist')
+        # driver.find_element_by_xpath("//button[contains(@onclick = \'clickSign();\')]").click()
 
 
 def testjanelogin():
@@ -46,7 +56,7 @@ def testjanelogin():
     driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
     time.sleep(1)
     select = Select(driver.find_element_by_tag_name('select'))
-    select.select_by_visible_text('Demo')
+    select.select_by_visible_text('Model Test Script Company')
     driver.find_element_by_id('login-submit').send_keys(Keys.ENTER)
     return driver
 
