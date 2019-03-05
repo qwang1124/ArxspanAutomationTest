@@ -1,7 +1,6 @@
 import time
 import unittest
-
-from HtmlTestRunner import HTMLTestRunner
+# from HtmlTestRunner import HTMLTestRunner
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import Select
@@ -9,11 +8,7 @@ from selenium.webdriver.support.ui import Select
 
 class TestCreateexperimentJoe(unittest.TestCase):
 
-<<<<<<< HEAD
     # def test_createexperiment(self):
-=======
-    # def test_createexperimentanduploadreaction(self):
->>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
     #     driver = testjoelogin()
     #     driver.find_element_by_id('createNewExperimentLeftNavButton').click()
     #     select = Select(driver.find_element_by_id('newExperimentNotebookId'))
@@ -21,10 +16,9 @@ class TestCreateexperimentJoe(unittest.TestCase):
     #     select1 = Select(driver.find_element_by_id('newExperimentTypeList'))
     #     select1.select_by_visible_text('Chemistry')
     #     driver.find_element_by_tag_name('button').click()
-<<<<<<< HEAD
-    #     driver.close()S
 
-=======
+    #     driver.close()
+
     #     driver.find_element_by_id('e_details').send_keys('test')
     #     driver.find_element_by_id('uploadReaction').click()
     #     driver.find_element_by_id('rxnFile').send_keys('C:\\Users\\QingW\\Downloads'
@@ -48,18 +42,13 @@ class TestCreateexperimentJoe(unittest.TestCase):
     #     self.assertTrue(valid)
 
     # addnote: no text insert
->>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
+
     def test_addnote(self):
         driver = testjoelogin()
         driver.get('https://model.arxspan.com/arxlab/experiment_no_chemdraw.asp?id=235143')
         driver.find_element_by_id('addNoteButton').click()
-<<<<<<< HEAD
-        # Switch to frame failed
-
-        # driver.switch_to.frame(driver.find_element_by_class_name('cke_wysiwyg_frame cke_reset'))
-        # driver.switch_to.default_content()
-        text = driver.find_element_by_css_selector('body > p')
-        text.send_keys('11111111111')
+        driver.find_element_by_id('note_p_1638_name').sendkeys('Testing')
+        driver.find_element_by_id('cke_273').click()
         # driver.execute_script("arguments[0].innerHTML = 'Set text using innerHTML'", text)
         driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
 
@@ -70,7 +59,7 @@ class TestCreateexperimentJoe(unittest.TestCase):
     #     # elm.click()
     #     # elm.send_keys(u'TestExperimentNote0109')
     #     driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
-=======
+
         frame = driver.find_element_by_tag_name("iframe")
         driver.switch_to.frame(frame)
         body = driver.find_element_by_tag_name("body")
@@ -80,7 +69,7 @@ class TestCreateexperimentJoe(unittest.TestCase):
         time.sleep(2)
         driver.close()
 
->>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
+
     #     driver.find_element_by_id('signExperimentButton').click()
     #     select = Select(driver.find_element_by_id('signStatusBox'))
     #     select.select_by_visible_text('Sign and Close')
@@ -88,7 +77,7 @@ class TestCreateexperimentJoe(unittest.TestCase):
     #     select.select_by_visible_text('Jane Biologist')
     #     driver.find_element_by_xpath("//button[contains(@onclick = \'clickSign();\')]").click()
 
-<<<<<<< HEAD
+
     # upload
     # def test_addfile(self):
     #     driver = testjoelogin()
@@ -133,10 +122,6 @@ class TestCreateexperimentJoe(unittest.TestCase):
         #     driver.get_screenshot_as_file(picture_name)
         # self.assertTrue(valid)
 
-
-def testjoelogin():
-    # driver = webdriver.Chrome('C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver')
-=======
     # def test_addfile(self):
     #     driver = testjoelogin()
     #     driver.get('https://model.arxspan.com/arxlab/experiment_no_chemdraw.asp?id=235248')
@@ -168,7 +153,7 @@ def testjoelogin():
 
 
 def testjoelogin():
->>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
+
     driver = webdriver.Chrome()
     driver.get('https://model.arxspan.com/login.asp')
     driver.maximize_window()
@@ -182,11 +167,7 @@ def testjoelogin():
     return driver
 
 
-<<<<<<< HEAD
 listaa = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\ArxspanAutomationTest'
-=======
-listaa = 'C:\\Users\\Ms. Wang\\Downloads\\ArxspanAutomationTest'
->>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
 
 
 def createsuite1():
@@ -199,21 +180,16 @@ def createsuite1():
     return testunit
 
 
-currenttime = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime(time.time()))
-reportfile = 'ResultReport' + currenttime + '.html'
-<<<<<<< HEAD
-filename = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports\\result.html'
-fp = open(filename, 'wb')
-filepath = 'C:\\Users\\QingW\\PycharmProjects\\FirstSeleium\\reports'
-=======
-filename = 'C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\reports\\result.html'
-fp = open(filename, 'wb')
-filepath = 'C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\reports'
->>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
+# currenttime = time.strftime("%Y-%m-%d %H_%M_%S", time.localtime(time.time()))
+# reportfile = 'ResultReport' + currenttime + '.html'
+# filename = 'C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\reports\\result.html'
+# fp = open(filename, 'wb')
+# filepath = 'C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\reports'
+#
+#
+# runner = HTMLTestRunner(output=filepath)
+# # runner = HTMLTestRunner()
+#
+# runner.run(createsuite1())
 
-runner = HTMLTestRunner(output=filepath)
-# runner = HTMLTestRunner()
-
-runner.run(createsuite1())
-
-fp.close()
+# fp.close()

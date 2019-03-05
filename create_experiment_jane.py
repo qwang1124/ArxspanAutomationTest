@@ -11,41 +11,35 @@ import HtmlTestRunner
 
 class TestCreateexperimentJane(unittest.TestCase):
 
-<<<<<<< HEAD
-    # def test_createexperiment_jane(self):
-    #     driver = testjanelogin()
-    #     driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
-    #     driver.find_element_by_link_text('Biology Experiment').click()
-    #     driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
-
-    def test_addexperimentdescription_jane(self):
+    def test_createexperiment_jane(self):
         driver = testjanelogin()
         driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
+        driver.find_element_by_link_text('Biology Experiment').click()
+        driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
         driver.find_element_by_id('e_details').send_keys('TESTING')
 
     def test_addprotocolfile_jane(self):
         driver = testjanelogin()
         driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
         driver.find_element_by_id('addFile_tab').click()
-        elm = driver.find_element_by_xpath("//input[@type='file']")
+        fileinput = driver.find_element_by_css_selector('#fileInputContainer > div > input[type="file"]')
+        driver.execute_script(
+            'arguments[0].style = ""; arguments[0].style.display = "block"; arguments[0].style.visibility = "visible";',
+            fileinput)
+        driver.find_element_by_css_selector('#fileInputContainer > div > input[type="file"]').send_keys(
+            'C:\\Users\\QingW\\Downloads\\PushTestingProtocolforELN.docx')
+        time.sleep(2)
+        driver.find_element_by_class_name('resumableUploadButton').click()
+        driver.find_element_by_id('attachmentTable_tab').click()
         elm.send_keys('C:\\Users\\QingW\\Downloads\\PushTestingProtocolforELN.docx')
         time.sleep(2)
         driver.find_element_by_xpath("//button[contains(@type ='submit')]").click()
+        driver.find_element_by_id('attachmentTable_tab').click()
 
-        # driver.switch_to.frame(driver.find_element_by_class_name('cke_wysiwyg_frame cke_reset'))
-        # driver.switch_to.default_content()
-        # driver.switch_to.frame('cke_wysiwyg_frame cke_reset')
-        # elm = driver.find_element_by_class_name('cke_editable cke_editable_themed cke_contents_ltr cke_show_borders')
-        # elm.send_keys(Keys.TAB)
-        # elm.send_keys(u'TestExperimentNote0109')
-        # driver.find_element_by_xpath('//a[contains(@onclick = \'clickSave();\')]').click()
-        # driver.find_element_by_id('signExperimentButton').click()
-        # select = Select(driver.find_element_by_id('signStatusBox'))
-        # select.select_by_visible_text('Sign and Close')
-        # select = Select(driver.find_element_by_id('requesteeIdBox'))
-        # select.select_by_visible_text('Jane Biologist')
-        # driver.find_element_by_xpath("//button[contains(@onclick = \'clickSign();\')]").click()
-=======
+    def test_addhistologyfile_jane(self):
+        driver = testjanelogin()
+        driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
+
     def test_createexperiment_Jane(self):
         driver = testjanelogin()
         driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10753')
@@ -57,24 +51,16 @@ class TestCreateexperimentJane(unittest.TestCase):
         select1 = Select(driver.find_element_by_id('newExperimentTypeList'))
         select1.select_by_visible_text('Chemistry')
         driver.find_element_by_tag_name('button').click()
-        driver.find_element_by_id('addNoteButton').click()
 
-        driver.switch_to.frame('cke_wysiwyg_frame cke_reset')
-        elm = driver.find_element_by_class_name('cke_editable cke_editable_themed cke_contents_ltr cke_show_borders')
-        elm.send_keys(Keys.TAB)
-        elm.send_keys(u'TestExperimentNote0109')
-        driver.find_element_by_xpath('//a[contains(@onclick = \'clickSave();\')]').click()
         driver.find_element_by_id('signExperimentButton').click()
         select = Select(driver.find_element_by_id('signStatusBox'))
         select.select_by_visible_text('Sign and Close')
         select = Select(driver.find_element_by_id('requesteeIdBox'))
         select.select_by_visible_text('Jane Biologist')
         driver.find_element_by_xpath("//button[contains(@onclick = \'clickSign();\')]").click()
->>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
 
 
 def testjanelogin():
-    # driver = webdriver.Chrome('C:\\Users\\Ms. Wang\\PycharmProjects\\myfirst\\driver')
     driver = webdriver.Chrome()
     driver.get('https://model.arxspan.com/login.asp')
     driver.maximize_window()
@@ -83,11 +69,8 @@ def testjanelogin():
     driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
     time.sleep(1)
     select = Select(driver.find_element_by_tag_name('select'))
-<<<<<<< HEAD
     select.select_by_visible_text('Model Test Script Company')
-=======
     select.select_by_visible_text('Demo')
->>>>>>> 193ba67a6bcbe28804e5894b2cbde92e68520638
     driver.find_element_by_id('login-submit').send_keys(Keys.ENTER)
     return driver
 
