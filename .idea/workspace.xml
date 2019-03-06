@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ad229bb-f232-4aa0-b051-bd6381c227cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ArxspanAutomationTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ArxspanAutomationTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_experiment_jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_experiment_jane.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_experiment_joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_experiment_joe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook_test/createnotebook_test_admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +20,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qwang_auto/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="61" column="64" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="86" />
+            <state relative-caret-position="169">
+              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-end-line="21" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+              <folding>
+                <element signature="e#689#700#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/cookiejane.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="49" selection-start-column="49" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -55,14 +78,17 @@
         <option value="$PROJECT_DIR$/create_experiment_joe.py" />
         <option value="$PROJECT_DIR$/create_experiment_jane.py" />
         <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/test.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="371" />
-    <option name="y" value="166" />
-    <option name="width" value="1116" />
-    <option name="height" value="922" />
+    <option name="x" value="384" />
+    <option name="y" value="33" />
+    <option name="width" value="1460" />
+    <option name="height" value="1025" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -107,11 +133,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\notebook_test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\ELN_test" />
       <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\ELN_test" />
+      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\notebook_test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -126,29 +154,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test05_biologyexperiment_all_jane.py">
-    <configuration name="create_experiment_joe" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ArxspanAutomationTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\QingW\PycharmProjects\FirstSeleium\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_experiment_joe.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="create_experimentjoe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in test01_notebook_all_admin.py">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ArxspanAutomationTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -156,31 +163,17 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qwang_auto" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/create_experimentjoe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/qwang_auto/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for create_experiment_jane.TestCreateexperimentJane" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="ArxspanAutomationTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;create_experiment_jane.TestCreateexperimentJane&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for create_experiment_jane.TestCreateexperimentJane.test_createexperiment_jane" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -195,6 +188,34 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;create_experiment_jane.TestCreateexperimentJane.test_createexperiment_jane&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test01_notebook_all_admin.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ArxspanAutomationTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test04_chemistryexperiment_all_joe.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ArxspanAutomationTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in test05_biologyexperiment_all_jane.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -213,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test01_notebook_all_admin.py" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.Unittests in test04_chemistryexperiment_all_joe.py" />
         <item itemvalue="Python tests.Unittests in test05_biologyexperiment_all_jane.py" />
         <item itemvalue="Python tests.Unittests for create_experiment_jane.TestCreateexperimentJane.test_createexperiment_jane" />
-        <item itemvalue="Python.create_experiment_joe" />
-        <item itemvalue="Python.create_experimentjoe" />
-        <item itemvalue="Python tests.Unittests for create_experiment_jane.TestCreateexperimentJane" />
       </list>
     </recent_temporary>
   </component>
@@ -235,12 +256,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe_test_addnote - 2019.01.15 at 10h 32m 26s.xml">
-      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addnote" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe_test_addnote - 2019.01.15 at 10h 33m 02s.xml">
-      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addnote" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe_test_addnote - 2019.01.15 at 11h 02m 29s.xml">
       <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addnote" configurationId="tests" />
     </history-entry>
@@ -265,23 +280,29 @@
     <history-entry file="Unittests_in_test05_biologyexperiment_all_jane_py - 2019.03.05 at 16h 50m 41s.xml">
       <configuration name="Unittests in test05_biologyexperiment_all_jane.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test05_biologyexperiment_all_jane_py - 2019.03.06 at 13h 20m 57s.xml">
+      <configuration name="Unittests in test05_biologyexperiment_all_jane.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test04_chemistryexperiment_all_joe_py - 2019.03.06 at 13h 20m 57s.xml">
+      <configuration name="Unittests in test04_chemistryexperiment_all_joe.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="371" y="166" width="1116" height="922" extended-state="0" />
+    <frame x="384" y="33" width="1460" height="1025" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.3153989" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.23909986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5021097" side_tool="true" weight="0.3153989" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32953104" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4686684" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3981588" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32777777" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33947065" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -309,8 +330,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py</url>
-          <line>82</line>
+          <line>91</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -415,10 +441,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qwang_auto/cookie.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="95" selection-start-column="95" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/cookiejane.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="49" selection-start-column="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="61" column="64" lean-forward="true" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="86" />
+        <state relative-caret-position="149">
+          <caret line="42" column="47" selection-start-line="41" selection-start-column="8" selection-end-line="42" selection-end-column="57" />
+          <folding>
+            <element signature="e#1122#1133#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#931#942#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qwang_auto/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+          <folding>
+            <element signature="e#689#700#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
