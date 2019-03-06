@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qwang_auto/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="442">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+            <state relative-caret-position="493">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding>
                 <element signature="e#689#700#0" expanded="true" />
               </folding>
@@ -79,14 +79,14 @@
         <option value="$PROJECT_DIR$/create_experiment_jane.py" />
         <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py" />
         <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" />
-        <option value="$PROJECT_DIR$/qwang_auto/test.py" />
         <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/test.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="384" />
-    <option name="y" value="33" />
+    <option name="x" value="250" />
+    <option name="y" value="16" />
     <option name="width" value="1460" />
     <option name="height" value="1025" />
   </component>
@@ -154,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test01_notebook_all_admin.py">
+  <component name="RunManager" selected="Python.test">
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ArxspanAutomationTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -234,8 +234,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test01_notebook_all_admin.py" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python tests.Unittests in test01_notebook_all_admin.py" />
         <item itemvalue="Python tests.Unittests in test04_chemistryexperiment_all_joe.py" />
         <item itemvalue="Python tests.Unittests in test05_biologyexperiment_all_jane.py" />
         <item itemvalue="Python tests.Unittests for create_experiment_jane.TestCreateexperimentJane.test_createexperiment_jane" />
@@ -256,9 +256,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe_test_addnote - 2019.01.15 at 11h 02m 29s.xml">
-      <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addnote" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_create_experiment_joe_TestCreateexperimentJoe_test_addnote - 2019.01.15 at 11h 07m 03s.xml">
       <configuration name="Unittests for create_experiment_joe.TestCreateexperimentJoe.test_addnote" configurationId="tests" />
     </history-entry>
@@ -286,17 +283,19 @@
     <history-entry file="Unittests_in_test04_chemistryexperiment_all_joe_py - 2019.03.06 at 13h 20m 57s.xml">
       <configuration name="Unittests in test04_chemistryexperiment_all_joe.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test01_notebook_all_admin_py - 2019.03.06 at 13h 24m 47s.xml">
+      <configuration name="Unittests in test01_notebook_all_admin.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="384" y="33" width="1460" height="1025" extended-state="0" />
-    <editor active="true" />
+    <frame x="250" y="16" width="1460" height="1025" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.23909986" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.23909986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5021097" side_tool="true" weight="0.3153989" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32911393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3981588" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,22 +474,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/test.py">
+    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-end-line="21" selection-end-column="16" />
+        <state relative-caret-position="493">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#689#700#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py">
+    <entry file="file://$PROJECT_DIR$/qwang_auto/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="66" lean-forward="true" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#689#700#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
