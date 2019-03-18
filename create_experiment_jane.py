@@ -13,14 +13,14 @@ class TestCreateexperimentJane(unittest.TestCase):
 
     def test_createexperiment_jane(self):
         driver = testjanelogin()
-        driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
+        driver.get('https://model.arxspan.com/arxlab/show-notebooks.asp?id=10799')
         driver.find_element_by_link_text('Biology Experiment').click()
         driver.find_element_by_xpath("//a[contains(@onclick = 'clickSave();')]").click()
         driver.find_element_by_id('e_details').send_keys('TESTING')
 
     def test_addprotocolfile_jane(self):
         driver = testjanelogin()
-        driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
+        driver.get('https://model.arxspan.com/arxlab/show-notebooks.asp?id=10799')
         driver.find_element_by_id('addFile_tab').click()
         fileinput = driver.find_element_by_css_selector('#fileInputContainer > div > input[type="file"]')
         driver.execute_script(
@@ -38,11 +38,11 @@ class TestCreateexperimentJane(unittest.TestCase):
 
     def test_addhistologyfile_jane(self):
         driver = testjanelogin()
-        driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10799')
+        driver.get('https://model.arxspan.com/arxlab/show-notebooks.asp?id=10799')
 
     def test_createexperiment_Jane(self):
         driver = testjanelogin()
-        driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10753')
+        driver.get('https://model.arxspan.com//arxlab//show-notebooks.asp?id=10753')
         driver.find_element_by_link_text('Biology Experiment').click()
 
         driver.find_element_by_id('createNewExperimentLeftNavButton').click()

@@ -12,7 +12,7 @@ class TestNotebookJoe(unittest.TestCase):
     def test_sharenotebook(self):
         driver = joelogin()
         driver.find_element_by_link_text('Invitations').click()
-        driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10669')
+        driver.get('https://model.arxspan.com//arxlab//show-notebooks.asp?id=10669')
         time.sleep(3)
         driver.find_element_by_xpath("//input[@type='button' and @value='Accept']").click()
         # driver.find_element_by_css_selector("input[onlick=notebookAccept()]").click()

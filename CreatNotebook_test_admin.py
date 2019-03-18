@@ -18,7 +18,7 @@ class TestCreatenotebookAdmin(unittest.TestCase):
     # def testcreatenotebook(self):
     #     driver = testadminlogin()
     #
-    #     # create notebook by admin start
+    #     # create notebooks by admin start
     #     driver.find_element_by_id('createNewNotebookLeftNavButton').click()
     #     driver.find_element_by_id('notebookName').send_keys('Test_Notebook_Q')
     #     driver.find_element_by_name('notebookDescription').send_keys('Test Script execution-01/01/2019')
@@ -26,9 +26,9 @@ class TestCreatenotebookAdmin(unittest.TestCase):
 
     def testsharenotebook(self):
         driver = testadminlogin()
-        driver.get('https://model.arxspan.com//arxlab//show-notebook.asp?id=10733')
+        driver.get('https://model.arxspan.com//arxlab//show-notebooks.asp?id=10733')
 
-        # Share notebook with Joe Chemistry
+        # Share notebooks with Joe Chemistry
         driver.find_element_by_id('shareNotebookLink').click()
         # Select checkbox failed
         driver.find_element_by_class_name('groupSelectLink').click()
@@ -44,7 +44,7 @@ class TestCreatenotebookAdmin(unittest.TestCase):
         driver.find_element_by_id('canWrite').click()
         driver.find_element_by_xpath("//input[@type='button' and @value='Share']").click()
 
-        # Share notebook with Jane Biology
+        # Share notebooks with Jane Biology
         driver.find_element_by_id('shareNotebookLink').click()
         driver.find_element_by_class_name('groupSelectLink').click()
         driver.find_element_by_id('expandGroupLink-105').click()

@@ -11,7 +11,7 @@ class TestCreateanalyticalexperimentJoe(unittest.TestCase):
 
     def test_createanalyticalexperiment(self):
         driver = testjoelogin()
-        driver.get('https://model.arxspan.com/arxlab/show-notebook.asp?id=10715')
+        driver.get('https://model.arxspan.com/arxlab/show-notebooks.asp?id=10715')
         driver.find_element_by_link_text('Analytical Experiment').click()
         driver.find_element_by_id('e_details').send_keys('test')
 
