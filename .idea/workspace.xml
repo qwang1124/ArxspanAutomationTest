@@ -1,66 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ad229bb-f232-4aa0-b051-bd6381c227cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/qwang_auto/testcases/New folder/CreatNotebook_test_admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qwang_auto/testcases/New folder/NotebookShare__test_Joe.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qwang_auto/testcases/New folder/NotebookShare_test_Jane.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qwang_auto/testcases/notebooks/02_notebook_shareaccept_joe_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qwang_auto/testcases/notebooks/03_notebook_shareaccept_jane_test.py" afterDir="false" />
+    <list default="true" id="4ad229bb-f232-4aa0-b051-bd6381c227cd" name="Default Changelist" comment="0318">
+      <change afterPath="$PROJECT_DIR$/automation_test_beta/11_analyticalrejectwitness_joe_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/resources/06 epoxide opening.cdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/resources/AlportsHistologyAnalysis.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/resources/Alports_Histology.ppt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/resources/GeneralFACSprotocol.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/resources/InventoryBulkUpdate.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/resources/PushTestingProtocolforELN.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/resources/nmrketalreduction21H.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/resources/~$Xenograft.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test01_notebook_all_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test02_acceptnotebookshare_joe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test03_acceptnotebookshare_jane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test05_rejectchemistrywitness_jane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test06_chemistryrejectwitness_all_joe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test07_acceptrejectedchemistrywitness_jane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test08_analyticalexperiment_all_joe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test09_rejectanalyticalwitness_jane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test10_analyticalrejectwitness_joe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test11_acceptrejectedanalyticalwitness_jane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test12_biologyexperiment_all_jane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/ELN_test/test13_conceptexperiment_all_jane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/New folder/CreatNotebook_test_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/New folder/NotebookShare__test_Joe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/New folder/NotebookShare_test_Jane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/01_analyticalexperiment_joe_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/02_rejectanalyticalwitness_jane_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/03_analyticalrejectwitness_joe_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/04_acceptrejectedanalyticalwitness_jane_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/resources/06 epoxide opening.cdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/resources/AlportsHistologyAnalysis.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/resources/Alports_Histology.ppt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/resources/GeneralFACSprotocol.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/resources/InventoryBulkUpdate.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/resources/nmrketalreduction21H.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/analyticalexperiments/resources/~$Xenograft.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/biology_concept_experiments/01_biologyexperiment_jane_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/biology_concept_experiments/02_conceptexperiment_jane_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/biology_concept_experiments/resources/06 epoxide opening.cdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/biology_concept_experiments/resources/AlportsHistologyAnalysis.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/biology_concept_experiments/resources/Alports_Histology.ppt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/biology_concept_experiments/resources/GeneralFACSprotocol.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/biology_concept_experiments/resources/InventoryBulkUpdate.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/biology_concept_experiments/resources/nmrketalreduction21H.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/biology_concept_experiments/resources/~$Xenograft.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/01_chemistryexperiment_joe_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/02_rejectchemistrywitness_jane_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/03_chemistryrejectwitness_joe_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/04_acceptrejectedchemistrywitness_jane_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/cookieajoe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/resources/06 epoxide opening.cdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/resources/AlportsHistologyAnalysis.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/resources/Alports_Histology.ppt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/resources/GeneralFACSprotocol.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/resources/InventoryBulkUpdate.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/resources/nmrketalreduction21H.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/chemistry_experiments/resources/~$Xenograft.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/notebooks/01_createsharenotebook_admin_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/notebooks/02_notebook_shareaccept_joe_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/notebooks/03_notebook_shareaccept_jane_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/resources/06 epoxide opening.cdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/resources/AlportsHistologyAnalysis.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/resources/Alports_Histology.ppt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/resources/GeneralFACSprotocol.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/resources/InventoryBulkUpdate.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/resources/PushTestingProtocolforELN.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/resources/nmrketalreduction21H.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/resources/~$Xenograft.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test0_running_all_cases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_JoeChemist/email.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_JoeChemist/resources/06 epoxide opening.cdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_JoeChemist/resources/AlportsHistologyAnalysis.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_JoeChemist/resources/Alports_Histology.ppt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_JoeChemist/resources/GeneralFACSprotocol.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_JoeChemist/resources/InventoryBulkUpdate.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_JoeChemist/resources/PushTestingProtocolforELN.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_JoeChemist/resources/nmrketalreduction21H.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_JoeChemist/resources/~$Xenograft.xls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_JoeChemist/test_acceptnotebookshare_joe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_admin/test_notebook_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_login/login_test_Jane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_login/login_test_Joe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/test_login/login_test_admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/witnessrejection/witness_joe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/witnessrejection/witnessacceptation_jane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcases/witnessrejection/witnessrejection_jane.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreatNotebook_test_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreatNotebook_test_admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CreateAnalyticalExperiment_test_joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/CreateAnalyticalExperiment_test_joe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder (2)/CreatNotebook_test_admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder (2)/NotebookShare__test_Joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder (2)/NotebookShare_test_Jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/CreatNotebook_test_admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/NotebookShare__test_Joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/New folder/NotebookShare_test_Jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotebookShare__test_Joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/NotebookShare__test_Joe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NotebookShare_test_Jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/NotebookShare_test_Jane.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_experiment_jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_experiment_jane.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/qwang_auto" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test06_rejectchemistrywitness_jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test06_rejectchemistrywitness_jane.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test07_chemistryrejectwitness_all_joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test07_chemistryrejectwitness_all_joe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test08_acceptrejectedchemistrywitness_jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test08_acceptrejectedchemistrywitness_jane.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test09_analyticalexperiment_all_joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test09_analyticalexperiment_all_joe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test10_conceptexperiment_all_jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test10_conceptexperiment_all_jane.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test11_rejectanalyticalwitness_jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test11_rejectanalyticalwitness_jane.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test12_analyticalrejectwitness_joe.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test12_analyticalrejectwitness_joe.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test13_acceptrejectedanalyticalwitness_jane.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test13_acceptrejectedanalyticalwitness_jane.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/conceptexperiment/acceptwitness_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/conceptexperiment/analyticalexperiment_joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/conceptexperiment/analyticalwitness_joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/conceptexperiment/conceptexperiment_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/experiment/experiment_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/experiment/experiment_joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/notebook/createsharenotebook_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/notebooks/01_createsharenotebook_admin_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/notebook/notebook_shareaccept_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/notebook/notebook_shareaccept_joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/chemistrywitnessrejection_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/resources/06 epoxide opening.cdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/resources/AlportsHistologyAnalysis.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/resources/Alports_Histology.ppt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/resources/GeneralFACSprotocol.doc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/resources/InventoryBulkUpdate.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/resources/nmrketalreduction21H.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/resources/~$Xenograft.xls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/test_acceptnotebookshare_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/test_acceptrejectedanalyticalwitness_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/test_acceptrejectedchemistrywitness_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/test_biologyexperiment_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/test_conceptexperiment_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/test_rejectanalyticalwitness_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JaneBiologist/test_rejectchemistrywitness_jane.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/analyticalrejectwitness_joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/test_analyticalexperiment_joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/test_analyticalwitness_joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/test_chemistryexperiment_joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/test_chemistryrejectwitness_joe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_admin/test_notebook_admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/testcases/test_admin/test_notebook_admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/automation_azure_test/login_admin_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/test01_notebook_admin.sh" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/test01_notebook_admin.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/test0_running_all_cases.sh" beforeDir="false" afterPath="$PROJECT_DIR$/qwang_auto/test0_running_all_cases.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/resources/06 epoxide opening.cdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/resources/AlportsHistologyAnalysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/resources/Alports_Histology.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/resources/GeneralFACSprotocol.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/resources/InventoryBulkUpdate.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/resources/PushTestingProtocolforELN.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/resources/nmrketalreduction21H.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/resources/~$Xenograft.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test02_acceptnotebookshare_joe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test03_acceptnotebookshare_jane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test06_rejectchemistrywitness_jane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test07_chemistryrejectwitness_all_joe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test08_acceptrejectedchemistrywitness_jane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test09_analyticalexperiment_all_joe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test10_conceptexperiment_all_jane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test11_rejectanalyticalwitness_jane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test12_analyticalrejectwitness_joe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test13_acceptrejectedanalyticalwitness_jane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/New folder/CreatNotebook_test_admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/New folder/NotebookShare__test_Joe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/New folder/NotebookShare_test_Jane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/01_analyticalexperiment_joe_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/02_rejectanalyticalwitness_jane_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/03_analyticalrejectwitness_joe_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/04_acceptrejectedanalyticalwitness_jane_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/resources/06 epoxide opening.cdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/resources/AlportsHistologyAnalysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/resources/Alports_Histology.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/resources/GeneralFACSprotocol.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/resources/InventoryBulkUpdate.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/resources/nmrketalreduction21H.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/resources/~$Xenograft.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/01_biologyexperiment_jane_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/02_conceptexperiment_jane_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/resources/06 epoxide opening.cdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/resources/AlportsHistologyAnalysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/resources/Alports_Histology.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/resources/GeneralFACSprotocol.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/resources/InventoryBulkUpdate.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/resources/nmrketalreduction21H.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/resources/~$Xenograft.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/01_chemistryexperiment_joe_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/02_rejectchemistrywitness_jane_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/03_chemistryrejectwitness_joe_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/04_acceptrejectedchemistrywitness_jane_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/cookieajoe.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/resources/06 epoxide opening.cdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/resources/AlportsHistologyAnalysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/resources/Alports_Histology.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/resources/GeneralFACSprotocol.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/resources/InventoryBulkUpdate.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/resources/nmrketalreduction21H.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/resources/~$Xenograft.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/notebooks/01_createsharenotebook_admin_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/notebooks/02_notebook_shareaccept_joe_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/notebooks/03_notebook_shareaccept_jane_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/resources/06 epoxide opening.cdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/resources/AlportsHistologyAnalysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/resources/Alports_Histology.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/resources/GeneralFACSprotocol.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/resources/InventoryBulkUpdate.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/resources/PushTestingProtocolforELN.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/resources/nmrketalreduction21H.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/resources/~$Xenograft.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test0_running_all_cases.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/resources/06 epoxide opening.cdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/resources/AlportsHistologyAnalysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/resources/Alports_Histology.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/resources/GeneralFACSprotocol.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/resources/InventoryBulkUpdate.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/resources/PushTestingProtocolforELN.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/resources/nmrketalreduction21H.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/resources/~$Xenograft.xls" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_JoeChemist/test_acceptnotebookshare_joe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_admin/test_notebook_admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_login/email.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_login/login_test_Jane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_login/login_test_Joe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/test_login/login_test_admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/witnessrejection/witness_joe.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/witnessrejection/witnessacceptation_jane.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qwang_auto/testcases/witnessrejection/witnessrejection_jane.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,46 +191,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/04_acceptrejectedchemistrywitness_jane_test.py">
+        <entry file="file://$PROJECT_DIR$/automation_test_beta/07_acceptrejectedchemistrywitness_jane_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+            <state relative-caret-position="340">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/notebooks/02_notebook_shareaccept_joe_test.py">
+        <entry file="file://$PROJECT_DIR$/automation_test_beta/06_chemistryrejectwitness_all_joe_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="42" column="16" selection-start-line="31" selection-start-column="8" selection-end-line="50" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/01_biologyexperiment_jane_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="92" column="26" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="97" selection-end-column="68" />
-              <folding>
-                <element signature="e#1222#1233#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1003">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/test_conceptexperiment_jane.py">
+        <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test03_acceptnotebookshare_jane.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="727">
-              <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+            <state relative-caret-position="116">
+              <caret line="71" column="104" selection-start-line="71" selection-start-column="104" selection-end-line="71" selection-end-column="104" />
               <folding>
-                <element signature="e#967#978#0" expanded="true" />
+                <element signature="e#507#537#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test01_notebook_all_admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+              <folding>
+                <element signature="e#689#708#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test02_acceptnotebookshare_joe.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -128,27 +251,13 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/qwang_auto" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/AppData/Local/Temp/Temp1_ArxspanAutomationTest-master.zip/Notebookshare_test_Joe.py" />
-        <option value="$PROJECT_DIR$/NotebookShare__test_Joe.py" />
-        <option value="$PROJECT_DIR$/NotebookShare_test_Jane.py" />
-        <option value="$PROJECT_DIR$/CreatNotebook_test_admin.py" />
-        <option value="$USER_HOME$/Desktop/AAT/arxspan_automation_testing/testcases/notebook/CreatNotebook_test_admin.py" />
-        <option value="$PROJECT_DIR$/notebook_test/CreateNotebook_test_admin.py" />
-        <option value="$PROJECT_DIR$/create_experimentjoe.py" />
-        <option value="$PROJECT_DIR$/create_experiment_joe.py" />
         <option value="$PROJECT_DIR$/create_experiment_jane.py" />
-        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" />
         <option value="$PROJECT_DIR$/qwang_auto/test.py" />
-        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test03_acceptnotebookshare_jane.py" />
-        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py" />
-        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test10_conceptexperiment_all_jane.py" />
-        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test07_chemistryrejectwitness_all_joe.py" />
-        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py" />
         <option value="$PROJECT_DIR$/qwang_auto/testcases/notebook/createsharenotebook_admin.py" />
         <option value="$PROJECT_DIR$/qwang_auto/testcases/notebook/notebook_shareaccept_joe.py" />
         <option value="$PROJECT_DIR$/qwang_auto/testcases/test_Experiments/01_chemistryexperiment_joe_test.py" />
@@ -163,14 +272,49 @@
         <option value="$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/04_acceptrejectedanalyticalwitness_jane_test.py" />
         <option value="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/test_biologyexperiment_jane.py" />
         <option value="$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/test_conceptexperiment_jane.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/test_login/login_test_admin.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test12_analyticalrejectwitness_joe.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/01_chemistryexperiment_joe_test.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test03_acceptnotebookshare_jane.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test02_acceptnotebookshare_joe.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/03_chemistryrejectwitness_joe_test.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test06_rejectchemistrywitness_jane.py" />
+        <option value="$PROJECT_DIR$/automation_azure_test/ELN_test/05_biologyexperiment_all_jane_test.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test10_conceptexperiment_all_jane.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test07_chemistryrejectwitness_all_joe.py" />
+        <option value="$PROJECT_DIR$/automation_test_beta/03_acceptnotebookshare_jane_test.py" />
+        <option value="$PROJECT_DIR$/automation_test_beta/02_acceptnotebookshare_joe_test.py" />
+        <option value="$PROJECT_DIR$/automation_test_beta/06_chemistryrejectwitness_all_joe_test.py" />
+        <option value="$PROJECT_DIR$/automation_test_beta/04_chemistryexperiment_all_joe_test.py" />
+        <option value="$PROJECT_DIR$/automation_test_beta/09_analyticalexperiment_all_joe_test.py" />
+        <option value="$PROJECT_DIR$/automation_test_beta/08_biologyexperiment_all_jane_test.py" />
+        <option value="$PROJECT_DIR$/automation_test_beta/07_acceptrejectedchemistrywitness_jane_test.py" />
+        <option value="$PROJECT_DIR$/automation_test_beta/05_rejectchemistrywitness_jane_test.py" />
+        <option value="$PROJECT_DIR$/automation_test_beta/10_rejectanalyticalwitness_jane_test.py" />
+        <option value="$PROJECT_DIR$/automation_azure_test/ELN_test/04_chemistryexperiment_all_joe_test.py" />
+        <option value="$PROJECT_DIR$/automation_azure_test/ELN_test/09_analyticalexperiment_all_joe_test.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" />
+        <option value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py" />
+        <option value="$PROJECT_DIR$/test0_running_all_cases.sh" />
+        <option value="$PROJECT_DIR$/qwang_auto/test0_running_all_cases.sh" />
+        <option value="$PROJECT_DIR$/qwang_auto/test01_notebook_admin.sh" />
+        <option value="$PROJECT_DIR$/testcases/ELN_test/test02_acceptnotebookshare_joe.py" />
+        <option value="$PROJECT_DIR$/testcases/ELN_test/test01_notebook_all_admin.py" />
+        <option value="$PROJECT_DIR$/testcases/ELN_test/test04_chemistryexperiment_all_joe.py" />
+        <option value="$PROJECT_DIR$/testcases/ELN_test/test08_analyticalexperiment_all_joe.py" />
+        <option value="$PROJECT_DIR$/testcases/ELN_test/test09_rejectanalyticalwitness_jane.py" />
+        <option value="$PROJECT_DIR$/testcases/ELN_test/test10_analyticalrejectwitness_joe.py" />
+        <option value="$PROJECT_DIR$/testcases/ELN_test/test11_acceptrejectedanalyticalwitness_jane.py" />
+        <option value="$PROJECT_DIR$/testcases/ELN_test/test03_acceptnotebookshare_jane.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
-    <option name="y" value="36" />
-    <option name="width" value="1460" />
-    <option name="height" value="1022" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="815" />
+    <option name="y" value="130" />
+    <option name="width" value="885" />
+    <option name="height" value="624" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -178,7 +322,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,60 +332,54 @@
             <path>
               <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
-              <item name="qwang_auto" type="462c0819:PsiDirectoryNode" />
+              <item name="automation_azure_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
+              <item name="automation_azure_test" type="462c0819:PsiDirectoryNode" />
+              <item name="ELN_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
+              <item name="automation_test_beta" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
               <item name="qwang_auto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium_testing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
               <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
-              <item name="qwang_auto" type="462c0819:PsiDirectoryNode" />
               <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name="analyticalexperiments" type="462c0819:PsiDirectoryNode" />
+              <item name="ELN_test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
-              <item name="qwang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name="biology_concept_experiments" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
-              <item name="qwang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name="chemistry_experiments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
-              <item name="qwang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
-              <item name="qwang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name="test_JoeChemist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ArxspanAutomationTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ArxspanAutomationTest" type="462c0819:PsiDirectoryNode" />
-              <item name="qwang_auto" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
-              <item name="test_login" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,17 +388,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\conceptexperiment" />
-      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\biology_experiments" />
-      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\ELN_test" />
       <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest" />
+      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\automation_azure_test" />
+      <recent name="C:\Users\QingW\AppData\Python37\Scripts" />
+      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\test_login" />
+      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\conceptexperiment" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest" />
+      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\test_JoeChemist" />
       <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\analyticalexperiments" />
       <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases" />
       <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\biology_experiments" />
-      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\test_JaneBiologist" />
-      <recent name="C:\Users\QingW\PycharmProjects\FirstSeleium\ArxspanAutomationTest\qwang_auto\testcases\ELN_test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,84 +414,84 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in 01_chemistryexperiment_joe_test.py">
-    <configuration name="Unittests in 01_chemistryexperiment_joe_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="ArxspanAutomationTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/01_chemistryexperiment_joe_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in 01_createsharenotebook_admin_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="ArxspanAutomationTest" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qwang_auto/testcases/notebooks" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/qwang_auto/testcases/notebooks/01_createsharenotebook_admin_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in test03_acceptnotebookshare_jane.py">
     <configuration name="Unittests in test01_notebook_all_admin.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ArxspanAutomationTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/ELN_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/ELN_test/test01_notebook_all_admin.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test06_rejectchemistrywitness_jane.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test02_acceptnotebookshare_joe.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ArxspanAutomationTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/ELN_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test06_rejectchemistrywitness_jane.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/ELN_test/test02_acceptnotebookshare_joe.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test07_chemistryrejectwitness_all_joe.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test03_acceptnotebookshare_jane.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="ArxspanAutomationTest" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/qwang_auto/testcases/ELN_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/ELN_test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test07_chemistryrejectwitness_all_joe.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/ELN_test/test03_acceptnotebookshare_jane.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test04_chemistryexperiment_all_joe.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ArxspanAutomationTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/ELN_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/ELN_test/test04_chemistryexperiment_all_joe.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test08_analyticalexperiment_all_joe.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="ArxspanAutomationTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases/ELN_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/ELN_test/test08_analyticalexperiment_all_joe.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in 01_chemistryexperiment_joe_test.py" />
-        <item itemvalue="Python tests.Unittests in 01_createsharenotebook_admin_test.py" />
+        <item itemvalue="Python tests.Unittests in test03_acceptnotebookshare_jane.py" />
+        <item itemvalue="Python tests.Unittests in test02_acceptnotebookshare_joe.py" />
         <item itemvalue="Python tests.Unittests in test01_notebook_all_admin.py" />
-        <item itemvalue="Python tests.Unittests in test07_chemistryrejectwitness_all_joe.py" />
-        <item itemvalue="Python tests.Unittests in test06_rejectchemistrywitness_jane.py" />
+        <item itemvalue="Python tests.Unittests in test08_analyticalexperiment_all_joe.py" />
+        <item itemvalue="Python tests.Unittests in test04_chemistryexperiment_all_joe.py" />
       </list>
     </recent_temporary>
   </component>
@@ -403,52 +541,65 @@
       <option name="project" value="LOCAL" />
       <updated>1552927859805</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="0318">
+      <created>1552941260162</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552941260162</updated>
+    </task>
+    <task id="LOCAL-00007" summary="0318">
+      <created>1552943074466</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552943074466</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_createsharenotebook_admin_py - 2019.03.18 at 11h 07m 25s.xml">
-      <configuration name="Unittests in createsharenotebook_admin.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test01_notebook_all_admin_py - 2019.05.01 at 09h 09m 46s.xml">
+      <configuration name="Unittests in test01_notebook_all_admin.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_createsharenotebook_admin_py - 2019.03.18 at 11h 08m 49s.xml">
-      <configuration name="Unittests in createsharenotebook_admin.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test02_acceptnotebookshare_joe_py - 2019.05.01 at 09h 12m 23s.xml">
+      <configuration name="Unittests in test02_acceptnotebookshare_joe.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_createsharenotebook_admin_py - 2019.03.18 at 11h 11m 48s.xml">
-      <configuration name="Unittests in createsharenotebook_admin.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test01_notebook_all_admin_py - 2019.05.01 at 09h 23m 01s.xml">
+      <configuration name="Unittests in test01_notebook_all_admin.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_createsharenotebook_admin_py - 2019.03.18 at 11h 14m 36s.xml">
-      <configuration name="Unittests in createsharenotebook_admin.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test08_analyticalexperiment_all_joe_py - 2019.05.06 at 11h 43m 02s.xml">
+      <configuration name="Unittests in test08_analyticalexperiment_all_joe.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_createsharenotebook_admin_py - 2019.03.18 at 11h 16m 41s.xml">
-      <configuration name="Unittests in createsharenotebook_admin.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test08_analyticalexperiment_all_joe_py - 2019.05.06 at 11h 47m 23s.xml">
+      <configuration name="Unittests in test08_analyticalexperiment_all_joe.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_createsharenotebook_admin_py - 2019.03.18 at 12h 18m 22s.xml">
-      <configuration name="Unittests in createsharenotebook_admin.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test08_analyticalexperiment_all_joe_py - 2019.05.06 at 11h 48m 08s.xml">
+      <configuration name="Unittests in test08_analyticalexperiment_all_joe.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_createsharenotebook_admin_py - 2019.03.18 at 12h 20m 42s.xml">
-      <configuration name="Unittests in createsharenotebook_admin.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test08_analyticalexperiment_all_joe_py - 2019.05.06 at 11h 50m 40s.xml">
+      <configuration name="Unittests in test08_analyticalexperiment_all_joe.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_createsharenotebook_admin_py - 2019.03.18 at 12h 52m 34s.xml">
-      <configuration name="Unittests in createsharenotebook_admin.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test01_notebook_all_admin_py - 2019.05.06 at 13h 49m 27s.xml">
+      <configuration name="Unittests in test01_notebook_all_admin.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_createsharenotebook_admin_py - 2019.03.18 at 13h 39m 13s.xml">
-      <configuration name="Unittests in createsharenotebook_admin.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test02_acceptnotebookshare_joe_py - 2019.05.06 at 13h 49m 52s.xml">
+      <configuration name="Unittests in test02_acceptnotebookshare_joe.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_01_chemistryexperiment_joe_test_py - 2019.03.18 at 14h 24m 34s.xml">
-      <configuration name="Unittests in 01_chemistryexperiment_joe_test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test03_acceptnotebookshare_jane_py - 2019.05.06 at 13h 50m 30s.xml">
+      <configuration name="Unittests in test03_acceptnotebookshare_jane.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="36" width="1460" height="1022" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.23909986" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.08195638" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5021097" side_tool="true" weight="0.3153989" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3290993" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39722863" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44666666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4077778" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -461,18 +612,18 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.23909986" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.18545838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5021097" side_tool="true" weight="0.3153989" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3981588" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44666666" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4077778" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.33947065" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2517321" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -482,7 +633,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0308" />
-    <option name="LAST_COMMIT_MESSAGE" value="0308" />
+    <MESSAGE value="0318" />
+    <option name="LAST_COMMIT_MESSAGE" value="0318" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -503,24 +655,79 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py</url>
-          <line>165</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py</url>
-          <line>75</line>
+          <url>file://$PROJECT_DIR$/testcases/ELN_test/test01_notebook_all_admin.py</url>
+          <line>43</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/qwang_auto/testcases/notebooks/01_createsharenotebook_admin_test.py</url>
+          <url>file://$PROJECT_DIR$/testcases/notebooks/01_createsharenotebook_admin_test.py</url>
           <line>94</line>
           <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/ELN_test/test06_chemistryrejectwitness_all_joe.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/ELN_test/test04_chemistryexperiment_all_joe.py</url>
+          <line>49</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/chemistry_experiments/01_chemistryexperiment_joe_test.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/ELN_test/test06_chemistryrejectwitness_all_joe.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/chemistry_experiments/03_chemistryrejectwitness_joe_test.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation_azure_test/ELN_test/05_biologyexperiment_all_jane_test.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/ELN_test/test04_chemistryexperiment_all_joe.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/automation_test_beta/04_chemistryexperiment_all_joe_test.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/ELN_test/test02_acceptnotebookshare_joe.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/ELN_test/test04_chemistryexperiment_all_joe.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/ELN_test/test12_biologyexperiment_all_jane.py</url>
+          <line>182</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/ELN_test/test12_biologyexperiment_all_jane.py</url>
+          <line>164</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testcases/ELN_test/test08_analyticalexperiment_all_joe.py</url>
+          <line>158</line>
+          <option name="timeStamp" value="62" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -540,263 +747,64 @@
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
     </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>driver.find_element_by_link_text('Replace')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_class_name('littleButton.noLiveEdit')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_class_name('littleButton_noLiveEdit')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_class_name('littleButtonnoLiveEdit')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_class_name('littleButtonnoLiveEdit').click()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_class_name('littleButton noLiveEdit').click()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_xpath('//*[@id=&quot;navSharedNotebooks&quot;]/ul/li[1]/a').click()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.find_element_by_xpath('//*[@id=&quot;navSharedNotebooks&quot;]/ul/li[1]/a')</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>WebDriverWait(driver, 10).until(ec.visibility_of_element_located((By.ID, &quot;signExperimentButton&quot;))).click</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>WebDriverWait(driver, 10).until(ec.visibility_of_element_located((By.ID, &quot;signExperimentButton&quot;)))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_ArxspanAutomationTest-master.zip/CreateNotebook_test_admin.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_ArxspanAutomationTest-master.zip/notebook_test/CreateNotebook_test_admin.py" />
-    <entry file="file://$PROJECT_DIR$/test_CreateNotebookAdmin_20190107091739 .png" />
-    <entry file="file://$PROJECT_DIR$/Notebookshare_test_Joe.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_ArxspanAutomationTest-master.zip/create_experiment_joe.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_ArxspanAutomationTest-master.zip/selenium_testing/test.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_ArxspanAutomationTest-master.zip/Notebookshare_test_Joe.py" />
-    <entry file="file://$USER_HOME$/AppData/Python37/Lib/unittest/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1373">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotebookShare_test_Jane.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NotebookShare__test_Joe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Python37/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="614" selection-start-line="614" selection-end-line="614" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notebook_test/createnotebook_test_admin.py" />
-    <entry file="file://$PROJECT_DIR$/selenium_testing/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/AAT/arxspan_automation_testing/testcases/notebook/createnotebook_admin.py" />
-    <entry file="file://$PROJECT_DIR$/create_experimentjoe.py" />
-    <entry file="file://$PROJECT_DIR$/create_experiment_joe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/create_experiment_jane.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/New folder (2)/NotebookShare_test_Jane.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="57" column="63" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/cookie.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="95" selection-start-column="95" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test04_chemistryexperiment_all_joe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#931#942#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/cookiejane.txt">
+    <entry file="file://$PROJECT_DIR$/testcases/analyticalexperiments/02_rejectanalyticalwitness_jane_test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test10_conceptexperiment_all_jane.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="118" column="17" lean-forward="true" selection-start-line="118" selection-start-column="17" selection-end-line="118" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test03_acceptnotebookshare_jane.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="62" column="26" lean-forward="true" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-          <folding>
-            <element signature="e#507#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/test_login/email.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="63" column="29" lean-forward="true" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test07_chemistryrejectwitness_all_joe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="59" column="92" selection-start-line="59" selection-start-column="92" selection-end-line="59" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/test_login/login_test_admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/setup.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="12" selection-start-line="38" selection-end-line="43" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/test05_biologyexperiment_jane.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test05_biologyexperiment_all_jane.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="110" column="16" selection-start-line="110" selection-start-column="8" selection-end-line="111" selection-end-column="104" />
-          <folding>
-            <element signature="e#1122#1133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test06_rejectchemistrywitness_jane.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/ELN_test/test01_notebook_all_admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="19" column="9" selection-start-line="16" selection-end-line="28" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/notebooks/03_notebook_shareaccept_jane_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/chemistrywitnessrejection_jane.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/01_chemistryexperiment_joe_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1635">
-          <caret line="121" column="22" lean-forward="true" selection-start-line="121" selection-start-column="22" selection-end-line="121" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/03_chemistryrejectwitness_joe_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="e#654#665#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/02_rejectchemistrywitness_jane_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/chemistry_experiments/04_acceptrejectedchemistrywitness_jane_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/notebooks/01_createsharenotebook_admin_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/test_analyticalwitness_joe.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/01_analyticalexperiment_joe_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="257" column="42" selection-start-line="257" selection-start-column="42" selection-end-line="257" selection-end-column="42" />
-          <folding>
-            <element signature="e#1127#1138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/02_rejectanalyticalwitness_jane_test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/03_analyticalrejectwitness_joe_test.py">
+    <entry file="file://$PROJECT_DIR$/testcases/analyticalexperiments/03_analyticalrejectwitness_joe_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
           <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
@@ -806,7 +814,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/analyticalexperiments/04_acceptrejectedanalyticalwitness_jane_test.py">
+    <entry file="file://$PROJECT_DIR$/testcases/analyticalexperiments/04_acceptrejectedanalyticalwitness_jane_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
@@ -816,9 +824,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/notebooks/02_notebook_shareaccept_joe_test.py">
+    <entry file="file://$PROJECT_DIR$/testcases/chemistry_experiments/04_acceptrejectedchemistrywitness_jane_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="306">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/notebooks/02_notebook_shareaccept_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
           <caret line="42" column="16" selection-start-line="31" selection-start-column="8" selection-end-line="50" selection-end-column="68" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -826,22 +841,319 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/01_biologyexperiment_jane_test.py">
+    <entry file="file://$PROJECT_DIR$/testcases/biology_concept_experiments/02_conceptexperiment_jane_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="92" column="26" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="97" selection-end-column="68" />
+        <state relative-caret-position="775">
+          <caret line="203" selection-start-line="203" selection-end-line="203" />
+          <folding>
+            <element signature="e#967#978#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/test_admin/test_notebook_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="54" />
+          <folding>
+            <element signature="e#686#697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/biology_concept_experiments/01_biologyexperiment_jane_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="92" column="26" selection-start-line="89" selection-start-column="8" selection-end-line="97" selection-end-column="68" />
           <folding>
             <element signature="e#1222#1233#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qwang_auto/testcases/biology_concept_experiments/test_conceptexperiment_jane.py">
+    <entry file="file://$PROJECT_DIR$/testcases/test_login/login_test_admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="727">
-          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="203" />
+        <state relative-caret-position="340">
+          <caret line="24" column="51" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="57" />
           <folding>
-            <element signature="e#967#978#0" expanded="true" />
+            <element signature="e#336#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/test_login/login_test_Jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3451">
+          <caret line="208" column="9" selection-start-line="208" selection-start-column="4" selection-end-line="208" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/test_JoeChemist/test_acceptnotebookshare_joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="38" column="18" selection-start-line="35" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/chemistry_experiments/01_chemistryexperiment_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="52" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="52" />
+          <folding>
+            <element signature="e#1065#1076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/chemistry_experiments/03_chemistryrejectwitness_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="71" column="85" selection-start-line="70" selection-start-column="7" selection-end-line="71" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_azure_test/06_chemistryrejectwitness_all_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="40" selection-start-line="39" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qwang_auto/test05_biologyexperiment_jane.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_azure_test/01_notebook_all_admin_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_azure_test/03_acceptnotebookshare_jane_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test07_acceptrejectedchemistrywitness_jane.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test13_conceptexperiment_all_jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_azure_test/08_biologyexperiment_all_jane_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="155" column="105" selection-start-line="155" selection-start-column="75" selection-end-line="155" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_test_beta/02_acceptnotebookshare_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="38" column="52" lean-forward="true" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_test_beta/08_biologyexperiment_all_jane_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_test_beta/10_rejectanalyticalwitness_jane_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="34" column="42" selection-start-line="32" selection-start-column="8" selection-end-line="41" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_test_beta/09_analyticalexperiment_all_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_azure_test/04_chemistryexperiment_all_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_test_beta/01_notebook_all_admin_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_test_beta/04_chemistryexperiment_all_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_azure_test/ELN_test/04_chemistryexperiment_all_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="59" column="66" lean-forward="true" selection-start-line="59" selection-start-column="66" selection-end-line="59" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test05_rejectchemistrywitness_jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test06_chemistryrejectwitness_all_joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="81" column="37" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_azure_test/ELN_test/09_analyticalexperiment_all_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="66" column="41" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/test0_running_all_cases.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_azure_test/ELN_test/05_biologyexperiment_all_jane_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test0_running_all_cases.sh" />
+    <entry file="file://$PROJECT_DIR$/qwang_auto/test01_notebook_admin.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qwang_auto/test0_running_all_cases.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test01_notebook_admin.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test08_analyticalexperiment_all_joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test09_rejectanalyticalwitness_jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="117" selection-start-line="36" selection-start-column="117" selection-end-line="36" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test10_analyticalrejectwitness_joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test04_chemistryexperiment_all_joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="42" />
+          <folding>
+            <element signature="e#1068#1079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test11_acceptrejectedanalyticalwitness_jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test12_biologyexperiment_all_jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1751">
+          <caret line="68" column="81" selection-start-line="68" selection-start-column="81" selection-end-line="68" selection-end-column="81" />
+          <folding>
+            <element signature="e#1225#1236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_test_beta/03_acceptnotebookshare_jane_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="40" column="21" selection-start-line="36" selection-end-line="50" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_test_beta/05_rejectchemistrywitness_jane_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="72" selection-start-line="37" selection-start-column="72" selection-end-line="37" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_test_beta/07_acceptrejectedchemistrywitness_jane_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/automation_test_beta/06_chemistryrejectwitness_all_joe_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test01_notebook_all_admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="36" column="72" selection-start-line="36" selection-start-column="72" selection-end-line="36" selection-end-column="72" />
+          <folding>
+            <element signature="e#689#708#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test02_acceptnotebookshare_joe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="42" column="68" selection-start-line="42" selection-start-column="68" selection-end-line="42" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcases/ELN_test/test03_acceptnotebookshare_jane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="71" column="104" selection-start-line="71" selection-start-column="104" selection-end-line="71" selection-end-column="104" />
+          <folding>
+            <element signature="e#507#537#0" expanded="true" />
           </folding>
         </state>
       </provider>
