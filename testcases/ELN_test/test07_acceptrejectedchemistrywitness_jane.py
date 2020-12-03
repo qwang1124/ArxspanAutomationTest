@@ -33,8 +33,9 @@ class TestWitnessJane(unittest.TestCase):
         assert driver.find_element_by_id('witnessRequestsHolder').is_displayed()
         # select the analytical biology_concept_experiments name
         driver.find_element_by_xpath('//*[@id="witnessRequestsHolder"]/div/div[2]/table/tbody/tr[1]/td[2]/a').click()
-        button = driver.find_element_by_css_selector('#witnessButtons > a:nth-child(1)')
-        button.click()
+        sign = driver.find_element_by_css_selector('#witnessButtons > a:nth-child(1)')
+
+        driver.execute_script("arguments[0].click();", sign)
         # sign and witness
         email = driver.find_elements_by_id('signEmail')[1]
         email.send_keys('jane@demo.com')
@@ -45,7 +46,7 @@ class TestWitnessJane(unittest.TestCase):
         driver.find_element_by_id('witnessSubmitButton').click()
         driver.get('https://model.arxspan.com/arxlab/dashboard.asp')
         driver.find_element_by_xpath('//*[@id="navMyExperiments"]/ul/li[1]/a').click()
-        assert WebDriverWait(driver, 5).until(ec.visibility_of_element_located((By.ID, "historyNavLink")))
+        assert WebDriverWait(driver, 5).until(ec.visibility_of_element_located((By.ID, "historyNavLink"))).is_displayed()
         time.sleep(2)
         # Log out
         driver.find_element_by_link_text('Logout').click()
@@ -56,7 +57,7 @@ def janelogin():
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get('https://model.arxspan.com/login.asp')
     driver.find_element_by_id('login-email').send_keys('jane@demo.com')
-    driver.find_element_by_id('login-pass').send_keys('carbonCopee')
+    driver.find_element_by_id('login-pass').send_keys('arxspanLukGood')
     driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
     time.sleep(1)
     select = Select(driver.find_element_by_tag_name('select'))

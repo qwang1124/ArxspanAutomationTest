@@ -36,33 +36,26 @@ import json
 
 
 class TestanalyticalexpernimentJoe(unittest.TestCase):
-    def setUp(self):
-        chrome_options = Options()
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument('--disable-gpu')
-        if platform.system() == 'Windows':
-            self.driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_options)
-        elif platform.system() == "Darwin":
-            self.driver = webdriver.Chrome('/usr/local/bin/chromedriver', chrome_options=chrome_options)
-        else:
-            self.driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=chrome_options)
+    # def setUp(self):
+    #     chrome_options = Options()
+    #     chrome_options.add_argument('--no-sandbox')
+    #     chrome_options.add_argument("--headless")
+    #     chrome_options.add_argument('--disable-gpu')
+    #     if platform.system() == 'Windows':
+    #         self.driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_options)
+    #     elif platform.system() == "Darwin":
+    #         self.driver = webdriver.Chrome('/usr/local/bin/chromedriver', chrome_options=chrome_options)
+    #     else:
+    #         self.driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=chrome_options)
+    #
+    #     self.driver.implicitly_wait(3)
+    #     self.base_url = "https://beta.arxspan.com/login.asp"
+    #     self.verificationErrors = []
+    #     self.accept_next_alert = True
 
-        self.driver.implicitly_wait(3)
-        self.base_url = "https://beta.arxspan.com/login.asp"
-        self.verificationErrors = []
-        self.accept_next_alert = True
-
-    def test_analyticalexperiment_joe(self):
-        driver = self.driver
-        driver.get(self.base_url)
-        f1 = open('cookieajoe.txt')
-        cookie = f1.read()
-        cookie = json.loads(cookie)
-        for c in cookie:
-            driver.add_cookie(c)
-        driver.refresh()
-        driver.implicitly_wait(20)
+    def test1(self):
+        driver = joelogin()
+        driver.implicitly_wait(30)
         driver.get('https://beta.arxspan.com/arxlab/dashboard.asp')
         # Select the recently note book
         driver.find_element_by_id('navSharedNotebooksLink').click()
@@ -168,11 +161,11 @@ class TestanalyticalexpernimentJoe(unittest.TestCase):
         time.sleep(2)
         # Replace the file
         WebDriverWait(driver, 10).until(ec.visibility_of_element_located((By.LINK_TEXT, "Replace"))).click()
-        field = driver.find_elements_by_xpath('//*[contains(@id, "file1_2")]')[0]
+        field = driver.find_elements_by_xpath('//*[contains(@id, "file1_3")]')[0]
         driver.execute_script("arguments[0].style.display = 'block';", field)
         path = Path('resources//InventoryBulkUpdate.xlsx').absolute()
-        driver.find_elements_by_xpath('//*[contains(@id, "file1_2")]')[0].send_keys(str(path))
-        button = driver.find_element_by_xpath('//*[contains(@id, "addFileDiv_2")]/form/section[2]/button')
+        driver.find_elements_by_xpath('//*[contains(@id, "file1_3")]')[0].send_keys(str(path))
+        button = driver.find_element_by_xpath('//*[contains(@id, "addFileDiv_3")]/form/section[2]/button')
         button.submit()
 
         # Sign & Close, selecting Jane Biologist as the Witness
@@ -197,7 +190,21 @@ class TestanalyticalexpernimentJoe(unittest.TestCase):
         driver.find_element_by_link_text('Logout').click()
         driver.close()
 
-
+def joelogin():
+    # driver = webdriver.Ie()
+    driver = webdriver.Chrome(ChromeDriverManager().install())
+    driver.get('https://beta.arxspan.com/login.asp?action=&override=hmwc')
+    # driver.maximize_window()
+    driver.find_element_by_id('login-email').clear()
+    driver.find_element_by_id('login-email').send_keys('joe@demo.com')
+    driver.find_element_by_id('login-pass').clear()
+    driver.find_element_by_id('login-pass').send_keys('arxspanLukGood')
+    driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
+    time.sleep(2)
+    select = Select(driver.find_element_by_tag_name('select'))
+    select.select_by_visible_text('Model Test Script Company')
+    driver.find_element_by_id('login-submit').send_keys(Keys.ENTER)
+    return driver
 
 
 

@@ -66,7 +66,9 @@ class TestCreatenotebookAdmin(unittest.TestCase):
 
         # Share notebook with Joe Chemistry
         driver.find_element_by_id('shareNotebookLink').click()
+
         driver.find_element_by_class_name('groupSelectLink').click()
+        driver.find_element_by_id('groupListUsers-0').click()
         driver.find_element_by_id('listGroupCheckUser-1786').click()
         driver.find_element_by_xpath('//*[@id="groupsDiv"]/div[3]/input').click()
         driver.find_element_by_id('canRead').click()
@@ -81,6 +83,7 @@ class TestCreatenotebookAdmin(unittest.TestCase):
         time.sleep(1)
         driver.find_element_by_id('shareNotebookLink').click()
         driver.find_element_by_class_name('groupSelectLink').click()
+        driver.find_element_by_id('groupListUsers-0').click()
         driver.find_element_by_id('listGroupCheckUser-1787').click()
         driver.find_element_by_xpath('//*[@id="groupsDiv"]/div[3]/input').click()
 

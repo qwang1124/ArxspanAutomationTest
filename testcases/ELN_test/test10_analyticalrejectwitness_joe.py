@@ -34,6 +34,7 @@ class TestWitnessJoe(unittest.TestCase):
         time.sleep(2)
         WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_xpath('//*[@id="navMyExperiments"]/ul'
                                                                                     '/li[1]/a')).click()
+        time.sleep(2)
         # check the rejection reason is showing
         element = WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_id('noteTable_tab'))
         driver.execute_script("arguments[0].click();", element)

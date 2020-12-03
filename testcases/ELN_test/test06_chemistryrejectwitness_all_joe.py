@@ -32,14 +32,15 @@ class TestWitnessJoe(unittest.TestCase):
     @allure.testcase('witnessjoe')
     def test1(self):
         driver = joelogin()
-        driver.implicitly_wait(20)
+        driver.implicitly_wait(30)
         WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_css_selector('#navMyExperiments > ul > '
                                                                                            'li:nth-child(1) > '
                                                                                            'a')).click()
-        # check the rejection reason is showing
+
         # check the rejection reason is showing
         element = WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_id('noteTable_tab'))
         driver.execute_script("arguments[0].click();", element)
+        time.sleep(2)
         driver.find_element_by_link_text('Witness Request Rejection').click()
         # assert driver.find_element_by_class_name('attachmentsIndexTable').is_displayed()
 

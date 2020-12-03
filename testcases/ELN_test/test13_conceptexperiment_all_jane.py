@@ -125,7 +125,7 @@ def janelogin():
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get('https://model.arxspan.com/login.asp')
     driver.find_element_by_id('login-email').send_keys('jane@demo.com')
-    driver.find_element_by_id('login-pass').send_keys('carbonCopee')
+    driver.find_element_by_id('login-pass').send_keys('arxspanLukGood')
     driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
     time.sleep(1)
     select = Select(driver.find_element_by_tag_name('select'))

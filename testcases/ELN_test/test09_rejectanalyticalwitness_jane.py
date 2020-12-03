@@ -32,11 +32,14 @@ class TestWitnessJane(unittest.TestCase):
         driver = janelogin()
         driver.implicitly_wait(20)
         # check the witness requests is showing the notification
-        assert driver.find_element_by_id('witnessRequestsHolder').is_displayed()
+        # assert driver.find_element_by_id('witnessRequestsHolder').is_displayed()
         # select the analytical biology_concept_experiments name
-        driver.find_element_by_xpath('//*[@id="witnessRequestsHolder"]/div/div[2]/table/tbody/tr[1]/td[2]/a').click()
+        driver.find_element_by_xpath('//*[@id="witnessRequestHolder"]/div/div[2]/table/tbody/tr[1]/td[2]/a').click()
+
+        time.sleep(2)
         button = driver.find_element_by_css_selector('#witnessButtons > a:nth-child(2)')
         button.click()
+        time.sleep(2)
         # add a note to reject reason
         driver.find_element_by_id('reasonBox').send_keys('TESTING')
         # reject the witness request
@@ -53,7 +56,7 @@ def janelogin():
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get('https://model.arxspan.com/login.asp')
     driver.find_element_by_id('login-email').send_keys('jane@demo.com')
-    driver.find_element_by_id('login-pass').send_keys('carbonCopee')
+    driver.find_element_by_id('login-pass').send_keys('arxspanLukGood')
     driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
     time.sleep(1)
     select = Select(driver.find_element_by_tag_name('select'))

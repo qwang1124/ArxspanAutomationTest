@@ -30,43 +30,76 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 import platform
 from pathlib import Path
-import json
 
 
 class TestCreateexperimentJoe(unittest.TestCase):
-    def setUp(self):
-        chrome_options = Options()
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument("--headless")
-        chrome_options.add_argument('--disable-gpu')
-        if platform.system() == 'Windows':
-            self.driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_options)
-        elif platform.system() == "Darwin":
-            self.driver = webdriver.Chrome('/usr/local/bin/chromedriver', chrome_options=chrome_options)
-        else:
-            self.driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=chrome_options)
+    # def setUp(self):
+    #     #     chrome_options = Options()
+    #     #     chrome_options.add_argument('--no-sandbox')
+    #     #     chrome_options.add_argument("--headless")
+    #     #     chrome_options.add_argument('--disable-gpu')
+    #     #     if platform.system() == 'Windows':
+    #     #         self.driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options=chrome_options)
+    #     #     elif platform.system() == "Darwin":
+    #     #         self.driver = webdriver.Chrome('/usr/local/bin/chromedriver', chrome_options=chrome_options)
+    #     #     else:
+    #     #         self.driver = webdriver.Chrome('/usr/bin/chromedriver', chrome_options=chrome_options)
+    #     #
+    #     #     self.driver.implicitly_wait(3)
+    #     #     self.base_url = "https://model.arxspan.com/login.asp?action=&override=hmwc"
+    #     #     self.verificationErrors = []
+    #     #     self.accept_next_alert = True
+    def test_create_groups_by_admin(self):
+        # driver = webdriver.Ie()
+        driver = webdriver.Chrome(ChromeDriverManager().install())
+        driver.get('https://model.arxspan.com/login.asp')
+        driver.find_element_by_id('login-email').send_keys('joe@demo.com')
+        driver.find_element_by_id('login-pass').send_keys('BobRossPositiveEnergy')
+        driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
+        time.sleep(1)
+        select = Select(driver.find_element_by_tag_name('select'))
+        select.select_by_visible_text('Model Test Script Company')
+        driver.find_element_by_id('login-submit').send_keys(Keys.ENTER)
+        driver.implicitly_wait(10)
 
-        self.driver.implicitly_wait(3)
-        self.base_url = "https://model.arxspan.com/login.asp"
-        self.verificationErrors = []
-        self.accept_next_alert = True
-
-    def test_create_chemistryexperiment_joe(self):
-        driver = self.driver
-        driver.get(self.base_url)
-        f1 = open('cookieajoe.txt')
-        cookie = f1.read()
-        cookie = json.loads(cookie)
-        for c in cookie:
-            driver.add_cookie(c)
-        driver.refresh()
-        driver.implicitly_wait(20)
-        driver.get('https://model.arxspan.com/arxlab/dashboard.asp')
+    # def test_create_chemistryexperiment_joe(self):
+    #     driver = self.driver
+    #     driver.get(self.base_url)
+    #     driver.find_element_by_id('login-email').send_keys('joe@demo.com')
+    #     driver.find_element_by_id('login-pass').send_keys('BobRossPositiveEnergy')
+    #     driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
+    #     select = Select(driver.find_element_by_tag_name('select'))
+    #     select.select_by_visible_text('Model Test Script Company')
+    #     driver.find_element_by_id('login-submit').send_keys(Keys.ENTER)
+    #     driver.implicitly_wait(20)
+    #     driver.get('https://model.arxspan.com/arxlab/dashboard.asp')
 
         # Create new chemistry experiment
-        driver.find_element_by_xpath('//*[@id="navMyNotebooks"]/ul/li/a').click()
+        driver.find_element_by_id('createNewExperimentLeftNavButton').click()
+        time.sleep(3)
+        driver.switch_to.window(driver.window_handles[0])
+        # dropdown = Select(driver.find_elements_by_id('menu-experimentType'))
+        # exp_display1 = driver.find_element_by_id('experimentTypeSelect').value = '-2'
+        # print(exp_display1.text)
+        driver.execute_script("document.getElementById('experimentTypeSelect').value='-2'")
+        # print('print drpdown value')
+        # print(exp_drp.get_attribute('value'))
+        # exp_drp.__setattr__('value', '-2')
+        # exp_display2 = driver.find_element_by_id('experimentTypeSelect')
+        # print(exp_display2.text)
+        time.sleep(3)
+        # if len(data) > 0:
+        #     # now find desire element using index
+        #     individual_element = data[0]
+        #
+        #     # now you can find further nested single element using find_element() or list of elements using find_elements() at individual_element context
+        #     kcal = individual_element.find_element_by_xpath(
+        #         "(.//div[@class='size-12-fl-oz nutrition-value' or 'size-330-ml hide nutrition-value' or 'size-8-fl-oz nutrition-value'])[position()=1]").text
+
+        # dropdown.select_by_index(1)
         driver.find_element_by_css_selector(
-            '#pageContentTD > div > div.createExperimentDiv > a:nth-child(2)').click()
+            'body > div.MuiDialog-root > div.MuiDialog-container.MuiDialog-scrollPaper > div > '
+            'div.MuiPaper-root.MuiPaper-elevation0.MuiPaper-rounded > div > div:nth-child(5) > button').click()
         assert WebDriverWait(driver, 10).until(ec.visibility_of_element_located((By.ID, "historyNavLink")))
 
         # add a new note to the experiment
@@ -132,8 +165,4 @@ class TestCreateexperimentJoe(unittest.TestCase):
         # time.sleep(2)
         # logout
         driver.find_element_by_link_text('Logout').click()
-
-        driver.close()
-
-
 

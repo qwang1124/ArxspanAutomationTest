@@ -30,10 +30,12 @@ class TestWitnessJane(unittest.TestCase):
         driver = janelogin()
         # check the witness requests is showing the notification
         driver.implicitly_wait(20)
-        assert driver.find_element_by_id('witnessRequestsHolder').is_displayed()
+        # assert driver.find_element_by_id('witnessRequestsHolder').is_displayed()
         time.sleep(2)
         # select the analytical biology_concept_experiments name
-        driver.find_element_by_xpath('//*[@id="witnessRequestsHolder"]/div/div[2]/table/tbody/tr[1]/td[2]/a').click()
+        driver.find_element_by_css_selector('#witnessRequestHolder > div > div.objBody > table > tbody > '
+                                            'tr:nth-child(1) > td.experimentCell > a').click()
+        time.sleep(2)
         sign = WebDriverWait(driver, 6).until(ec.visibility_of_element_located((By.CSS_SELECTOR, "#witnessButtons > "
                                                                                                  "a:nth-child(1)")))
         driver.execute_script("arguments[0].click();", sign)

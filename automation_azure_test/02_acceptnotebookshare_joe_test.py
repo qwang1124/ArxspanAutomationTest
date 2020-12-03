@@ -42,25 +42,17 @@ class TestNotebookJoe(unittest.TestCase):
         driver = self.driver
         driver.get(self.base_url)
         driver.find_element_by_id('login-email').send_keys('joe@demo.com')
-        driver.find_element_by_id('login-pass').send_keys('carbonCopee')
+        driver.find_element_by_id('login-pass').send_keys('BobRossPositiveEnergy')
         driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
         select = Select(driver.find_element_by_tag_name('select'))
         select.select_by_visible_text('Model Test Script Company')
         driver.find_element_by_id('login-submit').send_keys(Keys.ENTER)
-        cookies = driver.get_cookies()
-        print(type(cookies))
-        # print ("".join(cookies))
-        f1 = open('cookieajoe.txt', 'w')
-        f1.write(json.dumps(cookies))
-        f1.close
-        f1 = open('cookieajoe.txt')
-        cookie = f1.read()
-        cookie = json.loads(cookie)
-        for c in cookie:
-            driver.add_cookie(c)
-        driver.refresh()
 
         driver.get('https://model.arxspan.com/arxlab/dashboard.asp')
+        # Create new chemistry experiment
+        driver.find_element_by_id('createNewExperimentLeftNavButton').click()
+        dropdown = driver.find_elements_by_name('experimentType')
+        time.sleep(3)
         driver.find_element_by_link_text('Invitations').click()
         driver.find_element_by_css_selector('#SummaryTable > tbody > tr > td.sorting_1 > a').click()
         # accept the note book share

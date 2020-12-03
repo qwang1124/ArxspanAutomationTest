@@ -55,7 +55,7 @@ class TestanalyticalexpernimentJoe(unittest.TestCase):
         # assert WebDriverWait(driver, 10).until(ec.visibility_of_element_located((By.ID, "historyNavLink")))
         # time.sleep(2)
         # driver.find_element_by_xpath('//*[@id="navMyExperiments"]/ul/li[1]/a').click()
-        #
+        # #
         # # Add "PushTestingProtocolforELN.docx" file
         # driver.find_element_by_id('addFileButton').click()
         # fileinput = driver.find_elements_by_css_selector('#fileInputContainer > div > input[type="file"]')
@@ -91,7 +91,7 @@ class TestanalyticalexpernimentJoe(unittest.TestCase):
         #                                              'section.bottomButtons.buttonAlignedRight > button')
         # button.click()
         # assert WebDriverWait(driver, 5).until(ec.visibility_of_element_located((By.ID, "historyNavLink")))
-        # driver.get('https://model.arxspan.com/login.asp')
+        # driver.get('https://model.arxspan.com/arxlab/dashboard.asp')
         # WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_xpath('//*[@id="navMyExperiments"]/ul'
         #                                                                             '/li[1]/a')).click()
         #
@@ -109,42 +109,44 @@ class TestanalyticalexpernimentJoe(unittest.TestCase):
         #                                              'section.bottomButtons.buttonAlignedRight > button')
         # button.click()
         # assert WebDriverWait(driver, 5).until(ec.visibility_of_element_located((By.ID, "historyNavLink")))
-        # driver.get('https://model.arxspan.com/login.asp')
-        # WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_xpath('//*[@id="navMyExperiments"]/ul'
-        #                                                                             '/li[1]/a')).click()
-        #
-        # # Upload the "~$Xenograft.xls" file
-        # driver.find_element_by_id('addFileButton').click()
-        # fileinput = driver.find_elements_by_css_selector('#fileInputContainer > div > input[type="file"]')
-        # driver.execute_script(
-        #     'arguments[0].style = ""; arguments[0].style.display = "block"; arguments[0].style.visibility = "visible";',
-        #     fileinput)
-        # path = Path('resources\\~$Xenograft.xls').absolute()
-        # driver.find_element_by_css_selector('#fileInputContainer > div > input[type="file"]') \
-        #     .send_keys(str(path))
         # time.sleep(2)
-        # button = driver.find_element_by_css_selector('#resumableBrowserHolder > '
-        #                                              'section.bottomButtons.buttonAlignedRight > button')
-        # button.click()
-        # button = driver.find_element_by_css_selector('#submitRow > a:nth-child(1)')
-        # button.send_keys(Keys.ENTER)
-        # assert WebDriverWait(driver, 5).until(ec.visibility_of_element_located((By.ID, "historyNavLink")))
-        driver.get('https://model.arxspan.com/login.asp')
+        driver.get('https://model.arxspan.com/arxlab/dashboard.asp')
         WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_xpath('//*[@id="navMyExperiments"]/ul'
                                                                                     '/li[1]/a')).click()
-        # # download the file
-        # driver.find_element_by_id('attachmentTable_tab').click()
-        # driver.find_elements_by_link_text('Download')[0].click()
-        # time.sleep(4)
-        # # Replace the file
-        # driver.find_elements_by_link_text('Replace')[0].click()
-        # field = driver.find_elements_by_xpath('//*[contains(@id, "file1_3")]')[0]
-        # driver.execute_script("arguments[0].style.display = 'block';", field)
-        # path = Path('resources\\InventoryBulkUpdate.xlsx').absolute()
-        # driver.find_elements_by_xpath('//*[contains(@id, "file1_3")]')[0].send_keys(str(path))
-        # time.sleep(4)
-        # button = driver.find_element_by_xpath('//*[contains(@id, "addFileDiv_3")]/form/section[2]/button')
-        # button.submit()
+
+        # Upload the "~$Xenograft.xls" file
+        driver.find_element_by_id('addFileButton').click()
+        fileinput = driver.find_elements_by_css_selector('#fileInputContainer > div > input[type="file"]')
+        driver.execute_script(
+            'arguments[0].style = ""; arguments[0].style.display = "block"; arguments[0].style.visibility = "visible";',
+            fileinput)
+        path = Path('resources\\~$Xenograft.xls').absolute()
+        driver.find_element_by_css_selector('#fileInputContainer > div > input[type="file"]') \
+            .send_keys(str(path))
+        time.sleep(2)
+        button = driver.find_element_by_css_selector('#resumableBrowserHolder > '
+                                                     'section.bottomButtons.buttonAlignedRight > button')
+        button.click()
+        button = driver.find_element_by_css_selector('#submitRow > a:nth-child(1)')
+        button.send_keys(Keys.ENTER)
+        assert WebDriverWait(driver, 5).until(ec.visibility_of_element_located((By.ID, "historyNavLink")))
+        time.sleep(2)
+        driver.get('https://model.arxspan.com/arxlab/dashboard.asp')
+        WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_xpath('//*[@id="navMyExperiments"]/ul'
+                                                                                    '/li[1]/a')).click()
+        # download the file
+        driver.find_element_by_id('attachmentTable_tab').click()
+        driver.find_elements_by_link_text('Download')[0].click()
+        time.sleep(4)
+        # Replace the file
+        driver.find_elements_by_link_text('Replace')[0].click()
+        field = driver.find_elements_by_xpath('//*[contains(@id, "file1_3")]')[0]
+        driver.execute_script("arguments[0].style.display = 'block';", field)
+        path = Path('resources\\InventoryBulkUpdate.xlsx').absolute()
+        driver.find_elements_by_xpath('//*[contains(@id, "file1_3")]')[0].send_keys(str(path))
+        time.sleep(4)
+        button = driver.find_element_by_xpath('//*[contains(@id, "addFileDiv_3")]/form/section[2]/button')
+        button.submit()
 
         # Sign & Close, selecting Jane Biologist as the Witness
         button = driver.find_element_by_css_selector('#submitRow > a:nth-child(1)')

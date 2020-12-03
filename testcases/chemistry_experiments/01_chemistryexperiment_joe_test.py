@@ -160,10 +160,16 @@ def joelogin():
     driver.find_element_by_id('login-email').clear()
     driver.find_element_by_id('login-email').send_keys('joe@demo.com')
     driver.find_element_by_id('login-pass').clear()
-    driver.find_element_by_id('login-pass').send_keys('carbonCopee')
+    driver.find_element_by_id('login-pass').send_keys('BobRossPositiveEnergy')
     driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
     time.sleep(2)
     select = Select(driver.find_element_by_tag_name('select'))
     select.select_by_visible_text('Model Test Script Company')
     driver.find_element_by_id('login-submit').send_keys(Keys.ENTER)
+
+    # Create new chemistry experiment
+    driver.find_element_by_id('createNewExperimentLeftNavButton').click()
+    dropdown = driver.find_elements_by_name('experimentType')
+    time.sleep(3)
+    dropdown.find_element_by_visible_text('Chemistry').click()
     return driver

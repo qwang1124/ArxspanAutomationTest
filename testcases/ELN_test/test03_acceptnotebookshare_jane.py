@@ -67,11 +67,14 @@ class TestNotebookJane(unittest.TestCase):
         # driver.refresh()
         driver = janelogin()
         driver.implicitly_wait(10)
-        driver.find_element_by_link_text('Invitations').click()
+        WebDriverWait(driver, 15).until(lambda driver: driver.find_element_by_link_text('Invitations')).click()
+        time.sleep(4)
         WebDriverWait(driver, 10).until(lambda driver: driver.find_element_by_xpath('//*[@id="SummaryTable"]/tbody/tr'
                                                                                     '/td[1]/a')).click()
+        time.sleep(4)
         # accept the note book share
-        driver.switch_to.window(driver.window_handles[1])
+        driver.switch_to.window(driver.window_handles[-1])
+        time.sleep(1)
         driver.find_element_by_css_selector('#acceptForm > input:nth-child(3)').click()
         driver.quit()
 

@@ -43,12 +43,11 @@ class TestCreateexperimentJoe(unittest.TestCase):
         # Create new chemistry experiment
         driver.find_element_by_id('navSharedNotebooksLink').click()
         driver.find_element_by_xpath('//*[@id="navSharedNotebooks"]/ul/li[1]/a').click()
-        driver.find_element_by_css_selector(
-            '#pageContentTD > div > div.createExperimentDiv > a:nth-child(2)').click()
-        assert WebDriverWait(driver, 10).until(ec.visibility_of_element_located((By.ID, "historyNavLink")))
+        driver.find_element_by_css_selector('#pageContentTD > div > div.createExperimentDiv > a:nth-child(2)').click()
+        # assert WebDriverWait(driver, 10).until(ec.visibility_of_element_located((By.ID, "historyNavLink")))
 
         # add a new note to the experiment
-        driver.find_element_by_id('addNoteButton').click()
+        driver.find_element_by_id('addNote_tab').click()
         text = driver.find_elements_by_css_selector('[class="cke_contents cke_reset"]')[5]
         driver.execute_script("arguments[0].innerHTML='<p>this is test</p>'", text)
         save = driver.find_element_by_xpath('//*[contains(@id, "note_p")]/div[4]/a[1]')
@@ -119,7 +118,7 @@ def joelogin():
         driver = webdriver.Chrome(ChromeDriverManager().install())
         driver.get('https://beta.arxspan.com/login.asp')
         driver.find_element_by_id('login-email').send_keys('joe@demo.com')
-        driver.find_element_by_id('login-pass').send_keys('carbonCopee')
+        driver.find_element_by_id('login-pass').send_keys('arxspanLukGood')
         driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
         time.sleep(1)
         select = Select(driver.find_element_by_tag_name('select'))

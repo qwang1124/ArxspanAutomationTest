@@ -54,7 +54,7 @@ class TestCreateexperimentJoe(unittest.TestCase):
         driver = self.driver
         driver.get(self.base_url)
         driver.find_element_by_id('login-email').send_keys('joe@demo.com')
-        driver.find_element_by_id('login-pass').send_keys('carbonCopee')
+        driver.find_element_by_id('login-pass').send_keys('BobRossPositiveEnergy')
         driver.find_element_by_id('login-submit').send_keys(Keys.RETURN)
         select = Select(driver.find_element_by_tag_name('select'))
         select.select_by_visible_text('Model Test Script Company')
@@ -63,9 +63,13 @@ class TestCreateexperimentJoe(unittest.TestCase):
         driver.get('https://model.arxspan.com/arxlab/dashboard.asp')
 
         # Create new chemistry experiment
-        driver.find_element_by_xpath('//*[@id="navSharedNotebooks"]/ul/li[1]/a').click()
-        driver.find_element_by_css_selector(
-            '#pageContentTD > div > div.createExperimentDiv > a:nth-child(2)').click()
+        driver.find_element_by_id('createNewExperimentLeftNavButton').click()
+        experimenttype = Select(driver.find_element_by_id('basicSelectforexperimentTypeSelect'))
+        experimenttype.select_by_visible_text('Chemistry')
+        driver.find_element_by_class_name('MuiButtonBase-root MuiButton-root MuiButton-contained jss51').click()
+        # driver.find_element_by_xpath('//*[@id="navSharedNotebooks"]/ul/li[1]/a').click()
+        # driver.find_element_by_css_selector(
+        #     '#pageContentTD > div > div.createExperimentDiv > a:nth-child(2)').click()
         assert WebDriverWait(driver, 10).until(ec.visibility_of_element_located((By.ID, "historyNavLink")))
 
         # add a new note to the experiment

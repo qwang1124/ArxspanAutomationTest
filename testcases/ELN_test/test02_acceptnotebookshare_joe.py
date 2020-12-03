@@ -24,7 +24,10 @@ class TestNotebookJoe(unittest.TestCase):
         driver = joelogin()
         driver.implicitly_wait(10)
         driver.find_element_by_link_text('Invitations').click()
-        driver.find_element_by_css_selector('#SummaryTable > tbody > tr > td.sorting_1 > a').click()
+        time.sleep(2)
+        driver.find_element_by_xpath('//*[@id="SummaryTable"]/tbody/tr/td[1]/a').click()
+        time.sleep(2)
+
         # accept the note book share
         driver.switch_to.window(driver.window_handles[-1])
         driver.find_element_by_css_selector('#acceptForm > input:nth-child(3)').click()
